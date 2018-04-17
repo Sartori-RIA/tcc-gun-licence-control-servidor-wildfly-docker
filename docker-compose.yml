@@ -10,7 +10,7 @@ services:
     restart: always
     image: jboss/wildfly  
     ports:
-      - 8083:8080
+      - 80:8080
       - 9990:9990
     volumes:
       - ./servidor:/opt/jboss/wildfly
