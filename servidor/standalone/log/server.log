@@ -1,8 +1,8 @@
-2018-04-16 20:46:09,791 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
-2018-04-16 20:46:10,519 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
-2018-04-16 20:46:10,540 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
-2018-04-16 20:46:10,820 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
-2018-04-16 20:46:10,833 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+2018-04-18 00:06:38,897 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:06:39,516 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
+2018-04-18 00:06:39,531 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
+2018-04-18 00:06:39,754 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
+2018-04-18 00:06:39,760 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
 	[Standalone] = 
 	awt.toolkit = sun.awt.X11.XToolkit
 	file.encoding = ANSI_X3.4-1968
@@ -49,17 +49,17 @@
 	jboss.bind.address = 0.0.0.0
 	jboss.bind.address.management = 0.0.0.0
 	jboss.home.dir = /opt/jboss/wildfly
-	jboss.host.name = 657882fd5557
+	jboss.host.name = 5946bba56639
 	jboss.modules.dir = /opt/jboss/wildfly/modules
 	jboss.modules.system.pkgs = org.jboss.byteman
-	jboss.node.name = 657882fd5557
-	jboss.qualified.host.name = 657882fd5557
+	jboss.node.name = 5946bba56639
+	jboss.qualified.host.name = 5946bba56639
 	jboss.server.base.dir = /opt/jboss/wildfly/standalone
 	jboss.server.config.dir = /opt/jboss/wildfly/standalone/configuration
 	jboss.server.data.dir = /opt/jboss/wildfly/standalone/data
 	jboss.server.deploy.dir = /opt/jboss/wildfly/standalone/data/content
 	jboss.server.log.dir = /opt/jboss/wildfly/standalone/log
-	jboss.server.name = 657882fd5557
+	jboss.server.name = 5946bba56639
 	jboss.server.persist.config = true
 	jboss.server.temp.dir = /opt/jboss/wildfly/standalone/tmp
 	line.separator = 
@@ -90,43 +90,849 @@
 	user.language = en
 	user.name = jboss
 	user.timezone = UTC
-2018-04-16 20:46:10,834 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/opt/jboss/wildfly/standalone/log/server.log -Dlogging.configuration=file:/opt/jboss/wildfly/standalone/configuration/logging.properties 
-2018-04-16 20:46:15,989 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
-2018-04-16 20:46:16,072 INFO  [org.wildfly.security] (ServerService Thread Pool -- 20) ELY00001: WildFly Elytron version 1.2.2.Final
-2018-04-16 20:46:16,148 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 29) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
-2018-04-16 20:46:16,464 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
-2018-04-16 20:46:16,527 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.2.Final
-2018-04-16 20:46:16,561 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.2.Final
-2018-04-16 20:46:16,765 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 2 core threads with 16 task threads based on your 1 available processors
-2018-04-16 20:46:16,768 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
-2018-04-16 20:46:16,771 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.5.0.Final
-2018-04-16 20:46:16,804 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
-2018-04-16 20:46:16,868 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
-2018-04-16 20:46:16,960 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
-2018-04-16 20:46:16,999 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.7.Final)
-2018-04-16 20:46:17,017 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
-2018-04-16 20:46:17,074 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
-2018-04-16 20:46:17,189 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
-2018-04-16 20:46:17,390 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
-2018-04-16 20:46:17,575 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=5.0.2.Final
-2018-04-16 20:46:17,684 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.5.Final
-2018-04-16 20:46:18,634 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.0.0.Final starting
-2018-04-16 20:46:18,664 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
-2018-04-16 20:46:18,873 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path '/opt/jboss/wildfly/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
-2018-04-16 20:46:18,885 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 4 (per class), which is derived from the number of CPUs on this host.
-2018-04-16 20:46:18,889 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 16 (per class), which is derived from thread worker pool sizing.
-2018-04-16 20:46:19,112 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
-2018-04-16 20:46:19,565 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
-2018-04-16 20:46:19,598 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
-2018-04-16 20:46:20,034 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
-2018-04-16 20:46:20,087 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
-2018-04-16 20:46:20,099 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: EJB subsystem suspension complete
-2018-04-16 20:46:20,164 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /opt/jboss/wildfly/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
-2018-04-16 20:46:20,180 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory /opt/jboss/wildfly/standalone/deployments
-2018-04-16 20:46:20,661 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
-2018-04-16 20:46:20,705 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
-2018-04-16 20:46:21,114 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.2.0.Final (Apache CXF 3.2.2) 
-2018-04-16 20:46:21,358 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
-2018-04-16 20:46:21,369 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://0.0.0.0:9990/management
-2018-04-16 20:46:21,370 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://0.0.0.0:9990
-2018-04-16 20:46:21,371 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) started in 13699ms - Started 292 of 513 services (308 services are lazy, passive or on-demand)
+2018-04-18 00:06:39,778 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/opt/jboss/wildfly/standalone/log/server.log -Dlogging.configuration=file:/opt/jboss/wildfly/standalone/configuration/logging.properties 
+2018-04-18 00:06:43,255 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-04-18 00:06:43,340 INFO  [org.wildfly.security] (ServerService Thread Pool -- 17) ELY00001: WildFly Elytron version 1.2.2.Final
+2018-04-18 00:06:43,413 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 29) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-04-18 00:06:44,159 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 9) WFLYDR0001: Content added at location /opt/jboss/wildfly/standalone/data/content/4b/bcf9b0ce246eaa91d06449bd53d94fb709a75f/content
+2018-04-18 00:06:44,246 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-04-18 00:06:44,314 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.2.Final
+2018-04-18 00:06:44,341 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.2.Final
+2018-04-18 00:06:44,537 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-04-18 00:06:44,514 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-04-18 00:06:44,589 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-04-18 00:06:44,618 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.5.0.Final
+2018-04-18 00:06:44,625 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-04-18 00:06:44,627 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-04-18 00:06:44,672 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-04-18 00:06:44,726 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-04-18 00:06:44,727 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 2 core threads with 16 task threads based on your 1 available processors
+2018-04-18 00:06:44,880 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-04-18 00:06:45,016 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.7.Final)
+2018-04-18 00:06:45,024 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.0.0.Final starting
+2018-04-18 00:06:45,195 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.5.Final
+2018-04-18 00:06:45,365 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-04-18 00:06:45,379 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2018-04-18 00:06:45,616 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path '/opt/jboss/wildfly/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-04-18 00:06:45,939 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 16 (per class), which is derived from thread worker pool sizing.
+2018-04-18 00:06:45,941 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 4 (per class), which is derived from the number of CPUs on this host.
+2018-04-18 00:06:45,943 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-04-18 00:06:46,259 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2018-04-18 00:06:46,503 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
+2018-04-18 00:06:46,624 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:8080
+2018-04-18 00:06:46,647 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-04-18 00:06:46,726 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /opt/jboss/wildfly/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-04-18 00:06:46,734 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory /opt/jboss/wildfly/standalone/deployments
+2018-04-18 00:06:46,764 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "sinarm.war" (runtime-name: "sinarm.war")
+2018-04-18 00:06:46,917 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: EJB subsystem suspension complete
+2018-04-18 00:06:47,240 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2018-04-18 00:06:47,781 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.2.0.Final (Apache CXF 3.2.2) 
+2018-04-18 00:06:47,806 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-04-18 00:06:55,998 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry slf4j-api-1.5.6.jar in /content/sinarm.war/WEB-INF/lib/jacorb-2.3.1.jbossorg-1.jar  does not point to a valid jar for a Class-Path reference.
+2018-04-18 00:06:55,999 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry slf4j-jdk14-1.5.6.jar in /content/sinarm.war/WEB-INF/lib/jacorb-2.3.1.jbossorg-1.jar  does not point to a valid jar for a Class-Path reference.
+2018-04-18 00:06:56,000 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry concurrent-1.3.2.jar in /content/sinarm.war/WEB-INF/lib/jacorb-2.3.1.jbossorg-1.jar  does not point to a valid jar for a Class-Path reference.
+2018-04-18 00:06:56,006 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry antlr-2.7.2.jar in /content/sinarm.war/WEB-INF/lib/jacorb-2.3.1.jbossorg-1.jar  does not point to a valid jar for a Class-Path reference.
+2018-04-18 00:06:57,020 INFO  [org.jboss.as.pojo] (MSC service thread 1-1) WFLYPOJO0001: Found legacy bean/pojo namespace: urn:jboss:bean-deployer:2.0 - might be missing some xml features (potential exceptions).
+2018-04-18 00:06:58,278 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for sinarm
+2018-04-18 00:06:59,159 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment sinarm.war
+2018-04-18 00:06:59,355 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.3.6.Final
+2018-04-18 00:06:59,660 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ExamCategoryDAO' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/ExamCategoryDAO!br.gov.pf.model.dao.ExamCategoryDAO
+	java:app/sinarm/ExamCategoryDAO!br.gov.pf.model.dao.ExamCategoryDAO
+	java:module/ExamCategoryDAO!br.gov.pf.model.dao.ExamCategoryDAO
+	java:global/sinarm/ExamCategoryDAO
+	java:app/sinarm/ExamCategoryDAO
+	java:module/ExamCategoryDAO
+
+2018-04-18 00:06:59,664 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'LicenseCategoryService' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/LicenseCategoryService!br.gov.pf.model.service.LicenseCategoryService
+	java:app/sinarm/LicenseCategoryService!br.gov.pf.model.service.LicenseCategoryService
+	java:module/LicenseCategoryService!br.gov.pf.model.service.LicenseCategoryService
+	java:global/sinarm/LicenseCategoryService
+	java:app/sinarm/LicenseCategoryService
+	java:module/LicenseCategoryService
+
+2018-04-18 00:06:59,667 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'RequirementService' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/RequirementService!br.gov.pf.model.service.RequirementService
+	java:app/sinarm/RequirementService!br.gov.pf.model.service.RequirementService
+	java:module/RequirementService!br.gov.pf.model.service.RequirementService
+	java:global/sinarm/RequirementService
+	java:app/sinarm/RequirementService
+	java:module/RequirementService
+
+2018-04-18 00:06:59,670 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ExamCategoryResource' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/ExamCategoryResource!br.gov.pf.resource.ExamCategoryResource
+	java:app/sinarm/ExamCategoryResource!br.gov.pf.resource.ExamCategoryResource
+	java:module/ExamCategoryResource!br.gov.pf.resource.ExamCategoryResource
+	java:global/sinarm/ExamCategoryResource
+	java:app/sinarm/ExamCategoryResource
+	java:module/ExamCategoryResource
+
+2018-04-18 00:06:59,682 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'UserRoleResource' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/UserRoleResource!br.gov.pf.resource.UserRoleResource
+	java:app/sinarm/UserRoleResource!br.gov.pf.resource.UserRoleResource
+	java:module/UserRoleResource!br.gov.pf.resource.UserRoleResource
+	java:global/sinarm/UserRoleResource
+	java:app/sinarm/UserRoleResource
+	java:module/UserRoleResource
+
+2018-04-18 00:06:59,683 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'CityResource' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/CityResource!br.gov.pf.resource.CityResource
+	java:app/sinarm/CityResource!br.gov.pf.resource.CityResource
+	java:module/CityResource!br.gov.pf.resource.CityResource
+	java:global/sinarm/CityResource
+	java:app/sinarm/CityResource
+	java:module/CityResource
+
+2018-04-18 00:06:59,685 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'CityService' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/CityService!br.gov.pf.model.service.CityService
+	java:app/sinarm/CityService!br.gov.pf.model.service.CityService
+	java:module/CityService!br.gov.pf.model.service.CityService
+	java:global/sinarm/CityService
+	java:app/sinarm/CityService
+	java:module/CityService
+
+2018-04-18 00:06:59,699 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'StateDAO' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/StateDAO!br.gov.pf.model.dao.StateDAO
+	java:app/sinarm/StateDAO!br.gov.pf.model.dao.StateDAO
+	java:module/StateDAO!br.gov.pf.model.dao.StateDAO
+	java:global/sinarm/StateDAO
+	java:app/sinarm/StateDAO
+	java:module/StateDAO
+
+2018-04-18 00:06:59,701 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'CityDAO' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/CityDAO!br.gov.pf.model.dao.CityDAO
+	java:app/sinarm/CityDAO!br.gov.pf.model.dao.CityDAO
+	java:module/CityDAO!br.gov.pf.model.dao.CityDAO
+	java:global/sinarm/CityDAO
+	java:app/sinarm/CityDAO
+	java:module/CityDAO
+
+2018-04-18 00:06:59,702 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ExamDAO' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/ExamDAO!br.gov.pf.model.dao.ExamDAO
+	java:app/sinarm/ExamDAO!br.gov.pf.model.dao.ExamDAO
+	java:module/ExamDAO!br.gov.pf.model.dao.ExamDAO
+	java:global/sinarm/ExamDAO
+	java:app/sinarm/ExamDAO
+	java:module/ExamDAO
+
+2018-04-18 00:06:59,704 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'CountryDAO' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/CountryDAO!br.gov.pf.model.dao.CountryDAO
+	java:app/sinarm/CountryDAO!br.gov.pf.model.dao.CountryDAO
+	java:module/CountryDAO!br.gov.pf.model.dao.CountryDAO
+	java:global/sinarm/CountryDAO
+	java:app/sinarm/CountryDAO
+	java:module/CountryDAO
+
+2018-04-18 00:06:59,709 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'RequirementDAO' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/RequirementDAO!br.gov.pf.model.dao.RequirementDAO
+	java:app/sinarm/RequirementDAO!br.gov.pf.model.dao.RequirementDAO
+	java:module/RequirementDAO!br.gov.pf.model.dao.RequirementDAO
+	java:global/sinarm/RequirementDAO
+	java:app/sinarm/RequirementDAO
+	java:module/RequirementDAO
+
+2018-04-18 00:06:59,711 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'AddressService' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/AddressService!br.gov.pf.model.service.AddressService
+	java:app/sinarm/AddressService!br.gov.pf.model.service.AddressService
+	java:module/AddressService!br.gov.pf.model.service.AddressService
+	java:global/sinarm/AddressService
+	java:app/sinarm/AddressService
+	java:module/AddressService
+
+2018-04-18 00:06:59,720 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'UserDAO' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/UserDAO!br.gov.pf.model.dao.UserDAO
+	java:app/sinarm/UserDAO!br.gov.pf.model.dao.UserDAO
+	java:module/UserDAO!br.gov.pf.model.dao.UserDAO
+	java:global/sinarm/UserDAO
+	java:app/sinarm/UserDAO
+	java:module/UserDAO
+
+2018-04-18 00:06:59,722 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'GenderDAO' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/GenderDAO!br.gov.pf.model.dao.GenderDAO
+	java:app/sinarm/GenderDAO!br.gov.pf.model.dao.GenderDAO
+	java:module/GenderDAO!br.gov.pf.model.dao.GenderDAO
+	java:global/sinarm/GenderDAO
+	java:app/sinarm/GenderDAO
+	java:module/GenderDAO
+
+2018-04-18 00:06:59,724 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'LicenceCategoryDAO' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/LicenceCategoryDAO!br.gov.pf.model.dao.LicenceCategoryDAO
+	java:app/sinarm/LicenceCategoryDAO!br.gov.pf.model.dao.LicenceCategoryDAO
+	java:module/LicenceCategoryDAO!br.gov.pf.model.dao.LicenceCategoryDAO
+	java:global/sinarm/LicenceCategoryDAO
+	java:app/sinarm/LicenceCategoryDAO
+	java:module/LicenceCategoryDAO
+
+2018-04-18 00:06:59,726 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'GenderResource' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/GenderResource!br.gov.pf.resource.GenderResource
+	java:app/sinarm/GenderResource!br.gov.pf.resource.GenderResource
+	java:module/GenderResource!br.gov.pf.resource.GenderResource
+	java:global/sinarm/GenderResource
+	java:app/sinarm/GenderResource
+	java:module/GenderResource
+
+2018-04-18 00:06:59,735 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'AddressResource' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/AddressResource!br.gov.pf.resource.AddressResource
+	java:app/sinarm/AddressResource!br.gov.pf.resource.AddressResource
+	java:module/AddressResource!br.gov.pf.resource.AddressResource
+	java:global/sinarm/AddressResource
+	java:app/sinarm/AddressResource
+	java:module/AddressResource
+
+2018-04-18 00:06:59,739 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'AddressDAO' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/AddressDAO!br.gov.pf.model.dao.AddressDAO
+	java:app/sinarm/AddressDAO!br.gov.pf.model.dao.AddressDAO
+	java:module/AddressDAO!br.gov.pf.model.dao.AddressDAO
+	java:global/sinarm/AddressDAO
+	java:app/sinarm/AddressDAO
+	java:module/AddressDAO
+
+2018-04-18 00:06:59,740 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'UserRoleService' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/UserRoleService!br.gov.pf.model.service.UserRoleService
+	java:app/sinarm/UserRoleService!br.gov.pf.model.service.UserRoleService
+	java:module/UserRoleService!br.gov.pf.model.service.UserRoleService
+	java:global/sinarm/UserRoleService
+	java:app/sinarm/UserRoleService
+	java:module/UserRoleService
+
+2018-04-18 00:06:59,742 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'CountryService' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/CountryService!br.gov.pf.model.service.CountryService
+	java:app/sinarm/CountryService!br.gov.pf.model.service.CountryService
+	java:module/CountryService!br.gov.pf.model.service.CountryService
+	java:global/sinarm/CountryService
+	java:app/sinarm/CountryService
+	java:module/CountryService
+
+2018-04-18 00:06:59,744 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'LicenseCategoryResource' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/LicenseCategoryResource!br.gov.pf.resource.LicenseCategoryResource
+	java:app/sinarm/LicenseCategoryResource!br.gov.pf.resource.LicenseCategoryResource
+	java:module/LicenseCategoryResource!br.gov.pf.resource.LicenseCategoryResource
+	java:global/sinarm/LicenseCategoryResource
+	java:app/sinarm/LicenseCategoryResource
+	java:module/LicenseCategoryResource
+
+2018-04-18 00:06:59,755 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'UserService' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/UserService!br.gov.pf.model.service.UserService
+	java:app/sinarm/UserService!br.gov.pf.model.service.UserService
+	java:module/UserService!br.gov.pf.model.service.UserService
+	java:global/sinarm/UserService
+	java:app/sinarm/UserService
+	java:module/UserService
+
+2018-04-18 00:06:59,763 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'StateService' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/StateService!br.gov.pf.model.service.StateService
+	java:app/sinarm/StateService!br.gov.pf.model.service.StateService
+	java:module/StateService!br.gov.pf.model.service.StateService
+	java:global/sinarm/StateService
+	java:app/sinarm/StateService
+	java:module/StateService
+
+2018-04-18 00:06:59,769 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'CountryResource' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/CountryResource!br.gov.pf.resource.CountryResource
+	java:app/sinarm/CountryResource!br.gov.pf.resource.CountryResource
+	java:module/CountryResource!br.gov.pf.resource.CountryResource
+	java:global/sinarm/CountryResource
+	java:app/sinarm/CountryResource
+	java:module/CountryResource
+
+2018-04-18 00:06:59,771 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'UserResource' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/UserResource!br.gov.pf.resource.UserResource
+	java:app/sinarm/UserResource!br.gov.pf.resource.UserResource
+	java:module/UserResource!br.gov.pf.resource.UserResource
+	java:global/sinarm/UserResource
+	java:app/sinarm/UserResource
+	java:module/UserResource
+
+2018-04-18 00:06:59,775 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ExamCategoryService' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/ExamCategoryService!br.gov.pf.model.service.ExamCategoryService
+	java:app/sinarm/ExamCategoryService!br.gov.pf.model.service.ExamCategoryService
+	java:module/ExamCategoryService!br.gov.pf.model.service.ExamCategoryService
+	java:global/sinarm/ExamCategoryService
+	java:app/sinarm/ExamCategoryService
+	java:module/ExamCategoryService
+
+2018-04-18 00:06:59,777 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'LicenseResource' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/LicenseResource!br.gov.pf.resource.LicenseResource
+	java:app/sinarm/LicenseResource!br.gov.pf.resource.LicenseResource
+	java:module/LicenseResource!br.gov.pf.resource.LicenseResource
+	java:global/sinarm/LicenseResource
+	java:app/sinarm/LicenseResource
+	java:module/LicenseResource
+
+2018-04-18 00:06:59,778 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ExamService' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/ExamService!br.gov.pf.model.service.ExamService
+	java:app/sinarm/ExamService!br.gov.pf.model.service.ExamService
+	java:module/ExamService!br.gov.pf.model.service.ExamService
+	java:global/sinarm/ExamService
+	java:app/sinarm/ExamService
+	java:module/ExamService
+
+2018-04-18 00:06:59,785 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'UserRoleDAO' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/UserRoleDAO!br.gov.pf.model.dao.UserRoleDAO
+	java:app/sinarm/UserRoleDAO!br.gov.pf.model.dao.UserRoleDAO
+	java:module/UserRoleDAO!br.gov.pf.model.dao.UserRoleDAO
+	java:global/sinarm/UserRoleDAO
+	java:app/sinarm/UserRoleDAO
+	java:module/UserRoleDAO
+
+2018-04-18 00:06:59,795 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'Launch' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/Launch!br.gov.pf.util.Launch
+	java:app/sinarm/Launch!br.gov.pf.util.Launch
+	java:module/Launch!br.gov.pf.util.Launch
+	java:global/sinarm/Launch
+	java:app/sinarm/Launch
+	java:module/Launch
+
+2018-04-18 00:06:59,797 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'GenderService' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/GenderService!br.gov.pf.model.service.GenderService
+	java:app/sinarm/GenderService!br.gov.pf.model.service.GenderService
+	java:module/GenderService!br.gov.pf.model.service.GenderService
+	java:global/sinarm/GenderService
+	java:app/sinarm/GenderService
+	java:module/GenderService
+
+2018-04-18 00:06:59,801 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'LicenseDAO' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/LicenseDAO!br.gov.pf.model.dao.LicenseDAO
+	java:app/sinarm/LicenseDAO!br.gov.pf.model.dao.LicenseDAO
+	java:module/LicenseDAO!br.gov.pf.model.dao.LicenseDAO
+	java:global/sinarm/LicenseDAO
+	java:app/sinarm/LicenseDAO
+	java:module/LicenseDAO
+
+2018-04-18 00:06:59,805 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'StateResource' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/StateResource!br.gov.pf.resource.StateResource
+	java:app/sinarm/StateResource!br.gov.pf.resource.StateResource
+	java:module/StateResource!br.gov.pf.resource.StateResource
+	java:global/sinarm/StateResource
+	java:app/sinarm/StateResource
+	java:module/StateResource
+
+2018-04-18 00:06:59,806 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ValidatorResource' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/ValidatorResource!br.gov.pf.resource.ValidatorResource
+	java:app/sinarm/ValidatorResource!br.gov.pf.resource.ValidatorResource
+	java:module/ValidatorResource!br.gov.pf.resource.ValidatorResource
+	java:global/sinarm/ValidatorResource
+	java:app/sinarm/ValidatorResource
+	java:module/ValidatorResource
+
+2018-04-18 00:06:59,815 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'LicenseService' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/LicenseService!br.gov.pf.model.service.LicenseService
+	java:app/sinarm/LicenseService!br.gov.pf.model.service.LicenseService
+	java:module/LicenseService!br.gov.pf.model.service.LicenseService
+	java:global/sinarm/LicenseService
+	java:app/sinarm/LicenseService
+	java:module/LicenseService
+
+2018-04-18 00:06:59,820 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'RequirementResource' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/RequirementResource!br.gov.pf.resource.RequirementResource
+	java:app/sinarm/RequirementResource!br.gov.pf.resource.RequirementResource
+	java:module/RequirementResource!br.gov.pf.resource.RequirementResource
+	java:global/sinarm/RequirementResource
+	java:app/sinarm/RequirementResource
+	java:module/RequirementResource
+
+2018-04-18 00:06:59,822 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ExamResource' in deployment unit 'deployment "sinarm.war"' are as follows:
+
+	java:global/sinarm/ExamResource!br.gov.pf.resource.ExamResource
+	java:app/sinarm/ExamResource!br.gov.pf.resource.ExamResource
+	java:module/ExamResource!br.gov.pf.resource.ExamResource
+	java:global/sinarm/ExamResource
+	java:app/sinarm/ExamResource
+	java:module/ExamResource
+
+2018-04-18 00:07:02,080 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Bastille' 9.1.6.Final
+2018-04-18 00:07:03,027 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-04-18 00:07:03,282 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 3.0.3 (Final)
+2018-04-18 00:07:04,214 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "sinarm.war")]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenceCategoryDAO.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.Launch.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldTerminalListener\".START",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderService.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateResource.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.ValidatorResource.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementResource.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryDAO.START",
+        "jboss.deployment.unit.\"sinarm.war\".ee.ComponentRegistry",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateService.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleResource.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseService.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseResource.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryResource.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementService.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryResource.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityResource.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryService.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryService.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamResource.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleService.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityService.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderDAO.START",
+        "jboss.undertow.deployment.default-server.default-host./sinarm.UndertowDeploymentInfoService",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityDAO.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryService.WeldInstantiator",
+        "jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV\".WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderResource.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressResource.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressService.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserResource.START",
+        "jboss.naming.context.java.sinarm_ds",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamDAO.WeldInstantiator",
+        "jboss.persistenceunit.\"sinarm.war#sinarm\"",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateResource.START",
+        "jboss.deployment.unit.\"sinarm.war\".jndiDependencyService",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamDAO.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderService.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenceCategoryDAO.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.Launch.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseDAO.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryResource.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderResource.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityDAO.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateResource.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseService.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityDAO.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseDAO.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressDAO.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressDAO.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryService.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryDAO.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryService.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleResource.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleResource.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryDAO.WeldInstantiator",
+        "jboss.undertow.deployment.default-server.default-host./sinarm",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementDAO.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementDAO.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityResource.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateDAO.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateDAO.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryResource.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryResource.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserService.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryService.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldTerminalListener\".WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserResource.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderService.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryService.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamDAO.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenceCategoryDAO.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseResource.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressDAO.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.Launch.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateService.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserDAO.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryDAO.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseService.START",
+        "jboss.persistenceunit.\"sinarm.war#sinarm\".__FIRST_PHASE__",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementResource.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementService.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryResource.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseDAO.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryResource.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityResource.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamService.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamService.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamResource.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryService.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressService.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementService.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamResource.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressResource.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleDAO.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".WeldStartService",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderDAO.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityService.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderResource.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV\".START",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleService.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderDAO.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressService.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateService.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressResource.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleService.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserDAO.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryService.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserResource.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.ScriptFreeTLV\".START",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.ScriptFreeTLV\".WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryResource.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserService.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserService.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryDAO.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.ValidatorResource.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityService.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.ValidatorResource.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"javax.faces.webapp.FacetTag\".START",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserDAO.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseResource.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleDAO.START",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateDAO.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleDAO.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamService.WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"javax.faces.webapp.FacetTag\".WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementResource.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"com.sun.faces.config.ConfigureListener\".START",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"com.sun.faces.config.ConfigureListener\".WeldInstantiator",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementDAO.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".weld.weldClassIntrospector",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryDAO.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryResource.WeldInterceptorBindingsService",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldInitialListener\".START",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldInitialListener\".WeldInstantiator"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "jboss.deployment.unit.\"sinarm.war\".component.UserResource.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.UserResource.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementService.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleService.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.UserRoleService.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementResource.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.RequirementResource.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryResource.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateDAO.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamDAO.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.ExamDAO.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderService.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderResource.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.GenderResource.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseDAO.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager, jboss.deployment.unit.\"sinarm.war\".component.LicenseDAO.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryDAO.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.CountryDAO.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressService.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.Launch.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.Launch.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldInitialListener\".WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseDAO.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.LicenseDAO.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleDAO.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderService.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.GenderService.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryDAO.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".deploymentCompleteService is missing [jboss.deployment.unit.\"sinarm.war\".component.UserDAO.START, jboss.deployment.unit.\"sinarm.war\".component.UserService.START, jboss.deployment.unit.\"sinarm.war\".component.ExamResource.START, jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV\".START, jboss.deployment.unit.\"sinarm.war\".component.LicenseService.START, jboss.undertow.deployment.default-server.default-host./sinarm, jboss.deployment.unit.\"sinarm.war\".component.LicenseDAO.START, jboss.deployment.unit.\"sinarm.war\".component.ExamService.START, jboss.deployment.unit.\"sinarm.war\".component.ValidatorResource.START, jboss.deployment.unit.\"sinarm.war\".component.CityService.START, jboss.deployment.unit.\"sinarm.war\".component.GenderService.START, jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldTerminalListener\".START, jboss.deployment.unit.\"sinarm.war\".component.CityDAO.START, jboss.deployment.unit.\"sinarm.war\".component.StateService.START, jboss.deployment.unit.\"sinarm.war\".component.CountryDAO.START, jboss.deployment.unit.\"sinarm.war\".component.RequirementResource.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryService.START, jboss.deployment.unit.\"sinarm.war\".component.\"javax.faces.webapp.FacetTag\".START, jboss.deployment.unit.\"sinarm.war\".component.StateDAO.START, jboss.deployment.unit.\"sinarm.war\".component.UserRoleService.START, jboss.deployment.unit.\"sinarm.war\".component.UserRoleResource.START, jboss.deployment.unit.\"sinarm.war\".component.CityResource.START, jboss.deployment.unit.\"sinarm.war\".component.GenderDAO.START, jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryService.START, jboss.deployment.unit.\"sinarm.war\".component.AddressDAO.START, jboss.deployment.unit.\"sinarm.war\".component.StateResource.START, jboss.deployment.unit.\"sinarm.war\".component.AddressResource.START, jboss.deployment.unit.\"sinarm.war\".component.UserResource.START, jboss.deployment.unit.\"sinarm.war\".component.LicenceCategoryDAO.START, jboss.deployment.unit.\"sinarm.war\".component.\"com.sun.faces.config.ConfigureListener\".START, jboss.deployment.unit.\"sinarm.war\".component.UserRoleDAO.START, jboss.deployment.unit.\"sinarm.war\".component.ExamDAO.START, jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.ScriptFreeTLV\".START, jboss.deployment.unit.\"sinarm.war\".component.AddressService.START, jboss.deployment.unit.\"sinarm.war\".component.GenderResource.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryResource.START, jboss.deployment.unit.\"sinarm.war\".component.RequirementService.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseResource.START, jboss.deployment.unit.\"sinarm.war\".component.CountryService.START, jboss.persistenceunit.\"sinarm.war#sinarm\", jboss.deployment.unit.\"sinarm.war\".component.Launch.START, jboss.deployment.unit.\"sinarm.war\".component.CountryResource.START, jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryResource.START, jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryDAO.START, jboss.deployment.unit.\"sinarm.war\".component.RequirementDAO.START, jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldInitialListener\".START, jboss.persistenceunit.\"sinarm.war#sinarm\".__FIRST_PHASE__]",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"javax.faces.webapp.FacetTag\".WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderDAO.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamResource.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.ExamResource.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleService.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementDAO.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.Launch.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenceCategoryDAO.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseResource.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".weld.weldClassIntrospector is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleService.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.UserRoleService.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryResource.START is missing [jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryResource.WeldInstantiator, jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleDAO.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.UserRoleDAO.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateService.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.StateService.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ValidatorResource.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService, jboss.deployment.unit.\"sinarm.war\".component.ValidatorResource.WeldInterceptorBindingsService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"com.sun.faces.config.ConfigureListener\".START is missing [jboss.deployment.unit.\"sinarm.war\".component.\"com.sun.faces.config.ConfigureListener\".WeldInstantiator, jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserDAO.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager, jboss.deployment.unit.\"sinarm.war\".component.UserDAO.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderDAO.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager, jboss.deployment.unit.\"sinarm.war\".component.GenderDAO.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryService.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryService.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressResource.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.AddressResource.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.undertow.deployment.default-server.default-host./sinarm is missing [jboss.deployment.unit.\"sinarm.war\".component.UserDAO.START, jboss.deployment.unit.\"sinarm.war\".component.UserService.START, jboss.deployment.unit.\"sinarm.war\".WeldStartService, jboss.deployment.unit.\"sinarm.war\".component.ExamResource.START, jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV\".START, jboss.deployment.unit.\"sinarm.war\".component.LicenseService.START, jboss.deployment.unit.\"sinarm.war\".component.ExamService.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseDAO.START, jboss.deployment.unit.\"sinarm.war\".component.CityService.START, jboss.deployment.unit.\"sinarm.war\".component.ValidatorResource.START, jboss.deployment.unit.\"sinarm.war\".component.GenderService.START, jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldTerminalListener\".START, jboss.deployment.unit.\"sinarm.war\".component.CityDAO.START, jboss.deployment.unit.\"sinarm.war\".component.StateService.START, jboss.deployment.unit.\"sinarm.war\".component.CountryDAO.START, jboss.deployment.unit.\"sinarm.war\".component.RequirementResource.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryService.START, jboss.deployment.unit.\"sinarm.war\".component.\"javax.faces.webapp.FacetTag\".START, jboss.deployment.unit.\"sinarm.war\".component.UserRoleService.START, jboss.deployment.unit.\"sinarm.war\".component.StateDAO.START, jboss.deployment.unit.\"sinarm.war\".component.CityResource.START, jboss.deployment.unit.\"sinarm.war\".component.GenderDAO.START, jboss.deployment.unit.\"sinarm.war\".component.UserRoleResource.START, jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryService.START, jboss.deployment.unit.\"sinarm.war\".component.AddressDAO.START, jboss.deployment.unit.\"sinarm.war\".component.AddressResource.START, jboss.deployment.unit.\"sinarm.war\".component.StateResource.START, jboss.deployment.unit.\"sinarm.war\".component.UserResource.START, jboss.undertow.deployment.default-server.default-host./sinarm.UndertowDeploymentInfoService, jboss.deployment.unit.\"sinarm.war\".component.LicenceCategoryDAO.START, jboss.deployment.unit.\"sinarm.war\".component.\"com.sun.faces.config.ConfigureListener\".START, jboss.deployment.unit.\"sinarm.war\".component.UserRoleDAO.START, jboss.deployment.unit.\"sinarm.war\".component.ExamDAO.START, jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.ScriptFreeTLV\".START, jboss.deployment.unit.\"sinarm.war\".component.AddressService.START, jboss.deployment.unit.\"sinarm.war\".component.GenderResource.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryResource.START, jboss.deployment.unit.\"sinarm.war\".component.RequirementService.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseResource.START, jboss.deployment.unit.\"sinarm.war\".component.CountryService.START, jboss.persistenceunit.\"sinarm.war#sinarm\", jboss.deployment.unit.\"sinarm.war\".component.Launch.START, jboss.deployment.unit.\"sinarm.war\".component.CountryResource.START, jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryResource.START, jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryDAO.START, jboss.deployment.unit.\"sinarm.war\".component.RequirementDAO.START, jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldInitialListener\".START, jboss.persistenceunit.\"sinarm.war#sinarm\".__FIRST_PHASE__]",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementResource.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressService.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.AddressService.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".moduleDeploymentRuntimeInformationStart is missing [jboss.deployment.unit.\"sinarm.war\".component.UserRoleResource.START, jboss.deployment.unit.\"sinarm.war\".component.UserDAO.START, jboss.deployment.unit.\"sinarm.war\".component.CityResource.START, jboss.deployment.unit.\"sinarm.war\".component.GenderDAO.START, jboss.deployment.unit.\"sinarm.war\".component.UserService.START, jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryService.START, jboss.deployment.unit.\"sinarm.war\".component.AddressDAO.START, jboss.deployment.unit.\"sinarm.war\".component.StateResource.START, jboss.deployment.unit.\"sinarm.war\".component.ExamResource.START, jboss.deployment.unit.\"sinarm.war\".component.AddressResource.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseService.START, jboss.deployment.unit.\"sinarm.war\".component.UserResource.START, jboss.deployment.unit.\"sinarm.war\".component.LicenceCategoryDAO.START, jboss.deployment.unit.\"sinarm.war\".component.UserRoleDAO.START, jboss.deployment.unit.\"sinarm.war\".component.ExamDAO.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseDAO.START, jboss.deployment.unit.\"sinarm.war\".component.ExamService.START, jboss.deployment.unit.\"sinarm.war\".component.ValidatorResource.START, jboss.deployment.unit.\"sinarm.war\".component.CityService.START, jboss.deployment.unit.\"sinarm.war\".component.AddressService.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryResource.START, jboss.deployment.unit.\"sinarm.war\".component.GenderResource.START, jboss.deployment.unit.\"sinarm.war\".component.GenderService.START, jboss.deployment.unit.\"sinarm.war\".component.RequirementService.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseResource.START, jboss.deployment.unit.\"sinarm.war\".component.CityDAO.START, jboss.deployment.unit.\"sinarm.war\".component.CountryService.START, jboss.deployment.unit.\"sinarm.war\".component.Launch.START, jboss.deployment.unit.\"sinarm.war\".component.StateService.START, jboss.deployment.unit.\"sinarm.war\".component.CountryResource.START, jboss.deployment.unit.\"sinarm.war\".component.CountryDAO.START, jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryResource.START, jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryDAO.START, jboss.deployment.unit.\"sinarm.war\".component.RequirementResource.START, jboss.deployment.unit.\"sinarm.war\".component.RequirementDAO.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryService.START, jboss.deployment.unit.\"sinarm.war\".component.StateDAO.START, jboss.deployment.unit.\"sinarm.war\".component.UserRoleService.START]",
+        "jboss.deployment.unit.\"sinarm.war\".CdiValidatorFactoryService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldTerminalListener\".WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementDAO.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager, jboss.deployment.unit.\"sinarm.war\".component.RequirementDAO.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryService.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryService.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryResource.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.CountryResource.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ValidatorResource.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressDAO.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.AddressDAO.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleResource.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamDAO.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryDAO.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamResource.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateDAO.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.StateDAO.WeldInstantiator, jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.undertow.deployment.default-server.default-host./sinarm.UndertowDeploymentInfoService is missing [jboss.deployment.unit.\"sinarm.war\".ee.ComponentRegistry, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateResource.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateDAO.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService, jboss.deployment.unit.\"sinarm.war\".component.StateDAO.WeldInterceptorBindingsService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementService.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.RequirementService.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamService.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.ExamService.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryService.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryService.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV\".WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenceCategoryDAO.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.LicenceCategoryDAO.WeldInstantiator, jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenceCategoryDAO.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.LicenceCategoryDAO.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateService.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.StateService.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateResource.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService, jboss.deployment.unit.\"sinarm.war\".component.StateResource.WeldInterceptorBindingsService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementService.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.RequirementService.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.Launch.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.Launch.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"javax.faces.webapp.FacetTag\".START is missing [jboss.deployment.unit.\"sinarm.war\".component.\"javax.faces.webapp.FacetTag\".WeldInstantiator, jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityDAO.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.CityDAO.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryResource.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleDAO.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.UserRoleDAO.WeldInstantiator, jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamDAO.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.ExamDAO.WeldInstantiator, jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryResource.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryResource.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserDAO.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityService.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.CityService.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.persistenceunit.\"sinarm.war#sinarm\" is missing [jboss.naming.context.java.sinarm_ds, jboss.persistenceunit.\"sinarm.war#sinarm\".__FIRST_PHASE__]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserDAO.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService, jboss.deployment.unit.\"sinarm.war\".component.UserDAO.WeldInterceptorBindingsService]",
+        "jboss.deployment.unit.\"sinarm.war\".ee.ComponentRegistry is missing [jboss.deployment.unit.\"sinarm.war\".weld.weldClassIntrospector]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseResource.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.LicenseResource.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateService.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderResource.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.GenderResource.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryService.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamService.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressDAO.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryService.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.CountryService.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressResource.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.AddressResource.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderResource.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleResource.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.UserRoleResource.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.persistenceunit.\"sinarm.war#sinarm\".__FIRST_PHASE__ is missing [jboss.naming.context.java.sinarm_ds]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseDAO.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityDAO.START is missing [jboss.deployment.unit.\"sinarm.war\".component.CityDAO.WeldInstantiator, jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserService.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.UserService.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryResource.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryResource.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamResource.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.ExamResource.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryService.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressResource.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityService.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressService.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.AddressService.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserRoleResource.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.UserRoleResource.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementResource.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.RequirementResource.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.StateResource.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.StateResource.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseService.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryDAO.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager, jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryDAO.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryService.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryResource.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.CountryResource.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager is missing [jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityResource.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.CityResource.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"com.sun.faces.config.ConfigureListener\".WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderDAO.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.GenderDAO.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".jndiDependencyService is missing [jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserService.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.UserService.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryResource.START is missing [jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryResource.WeldInstantiator, jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ValidatorResource.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.ValidatorResource.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamService.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.ExamService.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.RequirementDAO.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.RequirementDAO.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityResource.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".WeldEndInitService is missing [jboss.deployment.unit.\"sinarm.war\".component.UserDAO.START, jboss.deployment.unit.\"sinarm.war\".component.UserService.START, jboss.deployment.unit.\"sinarm.war\".WeldStartService, jboss.deployment.unit.\"sinarm.war\".component.ExamResource.START, jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV\".START, jboss.deployment.unit.\"sinarm.war\".component.LicenseService.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseDAO.START, jboss.deployment.unit.\"sinarm.war\".component.ExamService.START, jboss.deployment.unit.\"sinarm.war\".component.ValidatorResource.START, jboss.deployment.unit.\"sinarm.war\".component.CityService.START, jboss.deployment.unit.\"sinarm.war\".component.GenderService.START, jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldTerminalListener\".START, jboss.deployment.unit.\"sinarm.war\".component.CityDAO.START, jboss.deployment.unit.\"sinarm.war\".component.StateService.START, jboss.deployment.unit.\"sinarm.war\".component.CountryDAO.START, jboss.deployment.unit.\"sinarm.war\".component.RequirementResource.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryService.START, jboss.deployment.unit.\"sinarm.war\".component.\"javax.faces.webapp.FacetTag\".START, jboss.deployment.unit.\"sinarm.war\".component.StateDAO.START, jboss.deployment.unit.\"sinarm.war\".component.UserRoleService.START, jboss.deployment.unit.\"sinarm.war\".component.UserRoleResource.START, jboss.deployment.unit.\"sinarm.war\".component.CityResource.START, jboss.deployment.unit.\"sinarm.war\".component.GenderDAO.START, jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryService.START, jboss.deployment.unit.\"sinarm.war\".component.AddressDAO.START, jboss.deployment.unit.\"sinarm.war\".component.StateResource.START, jboss.deployment.unit.\"sinarm.war\".component.AddressResource.START, jboss.deployment.unit.\"sinarm.war\".component.UserResource.START, jboss.deployment.unit.\"sinarm.war\".component.LicenceCategoryDAO.START, jboss.deployment.unit.\"sinarm.war\".component.\"com.sun.faces.config.ConfigureListener\".START, jboss.deployment.unit.\"sinarm.war\".component.UserRoleDAO.START, jboss.deployment.unit.\"sinarm.war\".component.ExamDAO.START, jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.ScriptFreeTLV\".START, jboss.deployment.unit.\"sinarm.war\".component.AddressService.START, jboss.deployment.unit.\"sinarm.war\".component.GenderResource.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryResource.START, jboss.deployment.unit.\"sinarm.war\".component.RequirementService.START, jboss.deployment.unit.\"sinarm.war\".component.LicenseResource.START, jboss.deployment.unit.\"sinarm.war\".component.CountryService.START, jboss.deployment.unit.\"sinarm.war\".component.Launch.START, jboss.deployment.unit.\"sinarm.war\".component.CountryResource.START, jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryResource.START, jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryDAO.START, jboss.deployment.unit.\"sinarm.war\".component.RequirementDAO.START, jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldInitialListener\".START]",
+        "jboss.deployment.unit.\"sinarm.war\".component.AddressDAO.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager, jboss.deployment.unit.\"sinarm.war\".component.AddressDAO.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.ScriptFreeTLV\".START is missing [jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.ScriptFreeTLV\".WeldInstantiator, jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV\".START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV\".WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserResource.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"javax.servlet.jsp.jstl.tlv.ScriptFreeTLV\".WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityDAO.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityResource.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.CityResource.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserService.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryDAO.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.ExamCategoryDAO.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseResource.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.LicenseResource.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.GenderService.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.GenderService.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryService.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.LicenseCategoryService.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryService.START is missing [jboss.deployment.unit.\"sinarm.war\".component.CountryService.WeldInstantiator, jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldInitialListener\".START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldInitialListener\".WeldInstantiator]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryDAO.START is missing [jboss.deployment.unit.\"sinarm.war\".component.CountryDAO.WeldInstantiator, jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.naming.context.java.module.sinarm.sinarm.env.\"br.gov.pf.model.dao.AbstractDAO\".entityManager, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".WeldStartService is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CountryResource.WeldInterceptorBindingsService is missing [jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.UserResource.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.UserResource.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseService.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.LicenseService.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]",
+        "jboss.deployment.unit.\"sinarm.war\".component.LicenseService.WeldInstantiator is missing [jboss.deployment.unit.\"sinarm.war\".component.LicenseService.WeldInterceptorBindingsService, jboss.deployment.unit.\"sinarm.war\".WeldStartService]",
+        "jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldTerminalListener\".START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.\"org.jboss.weld.module.web.servlet.WeldTerminalListener\".WeldInstantiator]",
+        "jboss.deployment.unit.\"sinarm.war\".component.CityService.START is missing [jboss.deployment.unit.\"sinarm.war\".jndiDependencyService, jboss.deployment.unit.\"sinarm.war\".component.CityService.WeldInstantiator, jboss.persistenceunit.\"sinarm.war#sinarm\"]"
+    ]
+}
+2018-04-18 00:07:04,299 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "sinarm.war" (runtime-name : "sinarm.war")
+2018-04-18 00:07:04,315 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."sinarm.war".WeldStartService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.GenderService.WeldInstantiator, service jboss.deployment.unit."sinarm.war".component.UserResource.WeldInstantiator, service jboss.deployment.unit."sinarm.war".component.LicenceCategoryDAO.WeldInstantiator, service jboss.deployment.unit."sinarm.war".component.Launch.WeldInstantiator, WFLYCTL0208: ... and 84 more ] 
+      service jboss.deployment.unit."sinarm.war".component.AddressDAO.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.AddressDAO.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.AddressDAO.START] 
+      service jboss.deployment.unit."sinarm.war".component.AddressDAO.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.AddressDAO.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.AddressResource.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.AddressResource.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.AddressResource.START] 
+      service jboss.deployment.unit."sinarm.war".component.AddressResource.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.AddressResource.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.AddressService.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.AddressService.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.AddressService.START] 
+      service jboss.deployment.unit."sinarm.war".component.AddressService.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.AddressService.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.CityDAO.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.CityDAO.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.CityDAO.START] 
+      service jboss.deployment.unit."sinarm.war".component.CityDAO.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.CityDAO.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.CityResource.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.CityResource.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.CityResource.START] 
+      service jboss.deployment.unit."sinarm.war".component.CityResource.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.CityResource.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.CityService.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.CityService.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.CityService.START] 
+      service jboss.deployment.unit."sinarm.war".component.CityService.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.CityService.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.CountryDAO.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.CountryDAO.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.CountryDAO.START] 
+      service jboss.deployment.unit."sinarm.war".component.CountryDAO.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.CountryDAO.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.CountryResource.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.CountryResource.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.CountryResource.START] 
+      service jboss.deployment.unit."sinarm.war".component.CountryResource.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.CountryResource.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.CountryService.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.CountryService.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.CountryService.START] 
+      service jboss.deployment.unit."sinarm.war".component.CountryService.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.CountryService.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.ExamCategoryDAO.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.ExamCategoryDAO.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamCategoryDAO.START] 
+      service jboss.deployment.unit."sinarm.war".component.ExamCategoryDAO.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamCategoryDAO.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.ExamCategoryResource.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.ExamCategoryResource.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamCategoryResource.START] 
+      service jboss.deployment.unit."sinarm.war".component.ExamCategoryResource.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamCategoryResource.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.ExamCategoryService.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.ExamCategoryService.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamCategoryService.START] 
+      service jboss.deployment.unit."sinarm.war".component.ExamCategoryService.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamCategoryService.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.ExamDAO.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.ExamDAO.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamDAO.START] 
+      service jboss.deployment.unit."sinarm.war".component.ExamDAO.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamDAO.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.ExamResource.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.ExamResource.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamResource.START] 
+      service jboss.deployment.unit."sinarm.war".component.ExamResource.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamResource.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.ExamService.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.ExamService.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamService.START] 
+      service jboss.deployment.unit."sinarm.war".component.ExamService.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamService.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.GenderDAO.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.GenderDAO.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.GenderDAO.START] 
+      service jboss.deployment.unit."sinarm.war".component.GenderDAO.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.GenderDAO.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.GenderResource.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.GenderResource.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.GenderResource.START] 
+      service jboss.deployment.unit."sinarm.war".component.GenderResource.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.GenderResource.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.GenderService.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.GenderService.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.GenderService.START] 
+      service jboss.deployment.unit."sinarm.war".component.GenderService.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.GenderService.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.Launch.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.Launch.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.Launch.START] 
+      service jboss.deployment.unit."sinarm.war".component.Launch.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.Launch.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.LicenceCategoryDAO.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.LicenceCategoryDAO.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.LicenceCategoryDAO.START] 
+      service jboss.deployment.unit."sinarm.war".component.LicenceCategoryDAO.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.LicenceCategoryDAO.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseCategoryResource.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseCategoryResource.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.LicenseCategoryResource.START] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseCategoryResource.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.LicenseCategoryResource.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseCategoryService.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseCategoryService.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.LicenseCategoryService.START] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseCategoryService.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.LicenseCategoryService.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseDAO.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseDAO.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.LicenseDAO.START] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseDAO.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.LicenseDAO.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseResource.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseResource.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.LicenseResource.START] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseResource.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.LicenseResource.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseService.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseService.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.LicenseService.START] 
+      service jboss.deployment.unit."sinarm.war".component.LicenseService.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.LicenseService.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.RequirementDAO.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.RequirementDAO.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.RequirementDAO.START] 
+      service jboss.deployment.unit."sinarm.war".component.RequirementDAO.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.RequirementDAO.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.RequirementResource.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.RequirementResource.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.RequirementResource.START] 
+      service jboss.deployment.unit."sinarm.war".component.RequirementResource.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.RequirementResource.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.RequirementService.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.RequirementService.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.RequirementService.START] 
+      service jboss.deployment.unit."sinarm.war".component.RequirementService.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.RequirementService.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.StateDAO.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.StateDAO.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.StateDAO.START] 
+      service jboss.deployment.unit."sinarm.war".component.StateDAO.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.StateDAO.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.StateResource.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.StateResource.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.StateResource.START] 
+      service jboss.deployment.unit."sinarm.war".component.StateResource.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.StateResource.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.StateService.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.StateService.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.StateService.START] 
+      service jboss.deployment.unit."sinarm.war".component.StateService.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.StateService.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.UserDAO.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.UserDAO.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.UserDAO.START] 
+      service jboss.deployment.unit."sinarm.war".component.UserDAO.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.UserDAO.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.UserResource.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.UserResource.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.UserResource.START] 
+      service jboss.deployment.unit."sinarm.war".component.UserResource.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.UserResource.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.UserRoleDAO.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.UserRoleDAO.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.UserRoleDAO.START] 
+      service jboss.deployment.unit."sinarm.war".component.UserRoleDAO.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.UserRoleDAO.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.UserRoleResource.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.UserRoleResource.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.UserRoleResource.START] 
+      service jboss.deployment.unit."sinarm.war".component.UserRoleResource.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.UserRoleResource.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.UserRoleService.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.UserRoleService.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.UserRoleService.START] 
+      service jboss.deployment.unit."sinarm.war".component.UserRoleService.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.UserRoleService.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.UserService.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.UserService.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.UserService.START] 
+      service jboss.deployment.unit."sinarm.war".component.UserService.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.UserService.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component.ValidatorResource.START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService, service jboss.deployment.unit."sinarm.war".moduleDeploymentRuntimeInformationStart] 
+      service jboss.deployment.unit."sinarm.war".component.ValidatorResource.WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ValidatorResource.START] 
+      service jboss.deployment.unit."sinarm.war".component.ValidatorResource.WeldInterceptorBindingsService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ValidatorResource.WeldInstantiator] 
+      service jboss.deployment.unit."sinarm.war".component."com.sun.faces.config.ConfigureListener".START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService] 
+      service jboss.deployment.unit."sinarm.war".component."com.sun.faces.config.ConfigureListener".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."sinarm.war".component."javax.faces.webapp.FacetTag".START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService] 
+      service jboss.deployment.unit."sinarm.war".component."javax.faces.webapp.FacetTag".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component."javax.faces.webapp.FacetTag".START] 
+      service jboss.deployment.unit."sinarm.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService] 
+      service jboss.deployment.unit."sinarm.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
+      service jboss.deployment.unit."sinarm.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService] 
+      service jboss.deployment.unit."sinarm.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."sinarm.war".component."org.jboss.weld.module.web.servlet.WeldInitialListener".START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService] 
+      service jboss.deployment.unit."sinarm.war".component."org.jboss.weld.module.web.servlet.WeldInitialListener".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component."org.jboss.weld.module.web.servlet.WeldInitialListener".START] 
+      service jboss.deployment.unit."sinarm.war".component."org.jboss.weld.module.web.servlet.WeldTerminalListener".START (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./sinarm, service jboss.deployment.unit."sinarm.war".WeldEndInitService] 
+      service jboss.deployment.unit."sinarm.war".component."org.jboss.weld.module.web.servlet.WeldTerminalListener".WeldInstantiator (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component."org.jboss.weld.module.web.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."sinarm.war".ee.ComponentRegistry (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host./sinarm.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."sinarm.war".jndiDependencyService (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamCategoryService.START, service jboss.deployment.unit."sinarm.war".component.StateResource.START, service jboss.deployment.unit."sinarm.war".component."org.jboss.weld.module.web.servlet.WeldTerminalListener".START, service jboss.deployment.unit."sinarm.war".component.GenderService.START, WFLYCTL0208: ... and 42 more ] 
+      service jboss.deployment.unit."sinarm.war".weld.weldClassIntrospector (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".ee.ComponentRegistry] 
+      service jboss.naming.context.java.module.sinarm.sinarm.env."br.gov.pf.model.dao.AbstractDAO".entityManager (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamDAO.START, service jboss.deployment.unit."sinarm.war".jndiDependencyService, service jboss.deployment.unit."sinarm.war".component.RequirementDAO.START, service jboss.deployment.unit."sinarm.war".component.LicenceCategoryDAO.START, WFLYCTL0208: ... and 10 more ] 
+      service jboss.naming.context.java.sinarm_ds (missing) dependents: [service jboss.persistenceunit."sinarm.war#sinarm".__FIRST_PHASE__, service jboss.persistenceunit."sinarm.war#sinarm"] 
+      service jboss.persistenceunit."sinarm.war#sinarm" (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".component.ExamCategoryService.START, service jboss.deployment.unit."sinarm.war".component.StateResource.START, service jboss.deployment.unit."sinarm.war".component.GenderService.START, service jboss.deployment.unit."sinarm.war".component.ExamDAO.START, WFLYCTL0208: ... and 43 more ] 
+      service jboss.persistenceunit."sinarm.war#sinarm".__FIRST_PHASE__ (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService, service jboss.persistenceunit."sinarm.war#sinarm", service jboss.undertow.deployment.default-server.default-host./sinarm] 
+      service jboss.undertow.deployment.default-server.default-host./sinarm (unavailable) dependents: [service jboss.deployment.unit."sinarm.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./sinarm.UndertowDeploymentInfoService (unavailable) dependents: [service jboss.undertow.deployment.default-server.default-host./sinarm] 
+
+2018-04-18 00:07:04,483 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-04-18 00:07:04,496 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://0.0.0.0:9990/management
+2018-04-18 00:07:04,497 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://0.0.0.0:9990
+2018-04-18 00:07:04,500 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) started (with errors) in 27433ms - Started 868 of 1198 services (139 services failed or missing dependencies, 315 services are lazy, passive or on-demand)
+2018-04-18 00:11:33,091 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:11:33,604 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2018-04-18 00:11:34,880 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:11:35,381 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2018-04-18 00:11:36,843 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:11:37,342 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2018-04-18 00:11:39,003 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:11:39,526 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2018-04-18 00:11:41,506 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:11:41,998 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2018-04-18 00:11:44,760 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:11:45,255 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2018-04-18 00:11:49,652 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:11:50,192 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2018-04-18 00:11:57,821 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:11:58,369 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2018-04-18 00:12:12,276 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:12:12,747 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2018-04-18 00:12:39,573 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:12:40,112 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2018-04-18 00:13:32,907 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:13:33,635 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2018-04-18 00:14:35,831 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:14:36,847 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2018-04-18 00:15:38,563 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:15:39,269 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2018-04-18 00:16:40,869 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:16:41,458 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
+2018-04-18 00:17:43,017 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-04-18 00:17:43,679 FATAL [org.jboss.as.server] (main) WFLYSRV0239: Aborting with exit code 1
