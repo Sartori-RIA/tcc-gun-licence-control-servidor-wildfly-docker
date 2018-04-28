@@ -1,0 +1,1323 @@
+2018-04-24 22:24:36,016 INFO  [stdout] (default task-2) Hibernate: 
+2018-04-24 22:24:36,019 INFO  [stdout] (default task-2)     select
+2018-04-24 22:24:36,019 INFO  [stdout] (default task-2)         gender0_.id as id1_6_,
+2018-04-24 22:24:36,019 INFO  [stdout] (default task-2)         gender0_.created_at as created_2_6_,
+2018-04-24 22:24:36,019 INFO  [stdout] (default task-2)         gender0_.updated_at as updated_3_6_,
+2018-04-24 22:24:36,020 INFO  [stdout] (default task-2)         gender0_.abbrev as abbrev4_6_,
+2018-04-24 22:24:36,020 INFO  [stdout] (default task-2)         gender0_.description as descript5_6_ 
+2018-04-24 22:24:36,020 INFO  [stdout] (default task-2)     from
+2018-04-24 22:24:36,021 INFO  [stdout] (default task-2)         genders gender0_
+2018-04-24 22:24:36,472 INFO  [stdout] (default task-2) Hibernate: 
+2018-04-24 22:24:36,472 INFO  [stdout] (default task-2)     select
+2018-04-24 22:24:36,473 INFO  [stdout] (default task-2)         state0_.id as id1_12_,
+2018-04-24 22:24:36,473 INFO  [stdout] (default task-2)         state0_.created_at as created_2_12_,
+2018-04-24 22:24:36,474 INFO  [stdout] (default task-2)         state0_.updated_at as updated_3_12_,
+2018-04-24 22:24:36,474 INFO  [stdout] (default task-2)         state0_.Abbrev as Abbrev4_12_,
+2018-04-24 22:24:36,474 INFO  [stdout] (default task-2)         state0_.country_id as country_6_12_,
+2018-04-24 22:24:36,475 INFO  [stdout] (default task-2)         state0_.description as descript5_12_ 
+2018-04-24 22:24:36,475 INFO  [stdout] (default task-2)     from
+2018-04-24 22:24:36,476 INFO  [stdout] (default task-2)         states state0_
+2018-04-24 22:24:36,481 INFO  [stdout] (default task-2) Hibernate: 
+2018-04-24 22:24:36,482 INFO  [stdout] (default task-2)     select
+2018-04-24 22:24:36,482 INFO  [stdout] (default task-2)         country0_.id as id1_3_0_,
+2018-04-24 22:24:36,482 INFO  [stdout] (default task-2)         country0_.created_at as created_2_3_0_,
+2018-04-24 22:24:36,483 INFO  [stdout] (default task-2)         country0_.updated_at as updated_3_3_0_,
+2018-04-24 22:24:36,483 INFO  [stdout] (default task-2)         country0_.description as descript4_3_0_ 
+2018-04-24 22:24:36,483 INFO  [stdout] (default task-2)     from
+2018-04-24 22:24:36,484 INFO  [stdout] (default task-2)         countries country0_ 
+2018-04-24 22:24:36,484 INFO  [stdout] (default task-2)     where
+2018-04-24 22:24:36,484 INFO  [stdout] (default task-2)         country0_.id=?
+2018-04-24 22:24:36,488 INFO  [stdout] (default task-1) Hibernate: 
+2018-04-24 22:24:36,488 INFO  [stdout] (default task-1)     select
+2018-04-24 22:24:36,488 INFO  [stdout] (default task-1)         city0_.id as id1_2_,
+2018-04-24 22:24:36,488 INFO  [stdout] (default task-1)         city0_.created_at as created_2_2_,
+2018-04-24 22:24:36,488 INFO  [stdout] (default task-1)         city0_.updated_at as updated_3_2_,
+2018-04-24 22:24:36,489 INFO  [stdout] (default task-1)         city0_.description as descript4_2_,
+2018-04-24 22:24:36,489 INFO  [stdout] (default task-1)         city0_.state_id as state_id5_2_ 
+2018-04-24 22:24:36,489 INFO  [stdout] (default task-1)     from
+2018-04-24 22:24:36,489 INFO  [stdout] (default task-1)         cities city0_
+2018-04-24 22:24:36,496 INFO  [stdout] (default task-1) Hibernate: 
+2018-04-24 22:24:36,497 INFO  [stdout] (default task-1)     select
+2018-04-24 22:24:36,498 INFO  [stdout] (default task-1)         state0_.id as id1_12_0_,
+2018-04-24 22:24:36,498 INFO  [stdout] (default task-1)         state0_.created_at as created_2_12_0_,
+2018-04-24 22:24:36,502 INFO  [stdout] (default task-1)         state0_.updated_at as updated_3_12_0_,
+2018-04-24 22:24:36,502 INFO  [stdout] (default task-1)         state0_.Abbrev as Abbrev4_12_0_,
+2018-04-24 22:24:36,502 INFO  [stdout] (default task-1)         state0_.country_id as country_6_12_0_,
+2018-04-24 22:24:36,503 INFO  [stdout] (default task-1)         state0_.description as descript5_12_0_,
+2018-04-24 22:24:36,503 INFO  [stdout] (default task-1)         country1_.id as id1_3_1_,
+2018-04-24 22:24:36,503 INFO  [stdout] (default task-1)         country1_.created_at as created_2_3_1_,
+2018-04-24 22:24:36,504 INFO  [stdout] (default task-1)         country1_.updated_at as updated_3_3_1_,
+2018-04-24 22:24:36,504 INFO  [stdout] (default task-1)         country1_.description as descript4_3_1_ 
+2018-04-24 22:24:36,504 INFO  [stdout] (default task-1)     from
+2018-04-24 22:24:36,504 INFO  [stdout] (default task-1)         states state0_ 
+2018-04-24 22:24:36,504 INFO  [stdout] (default task-1)     inner join
+2018-04-24 22:24:36,505 INFO  [stdout] (default task-1)         countries country1_ 
+2018-04-24 22:24:36,505 INFO  [stdout] (default task-1)             on state0_.country_id=country1_.id 
+2018-04-24 22:24:36,505 INFO  [stdout] (default task-1)     where
+2018-04-24 22:24:36,505 INFO  [stdout] (default task-1)         state0_.id=?
+2018-04-24 22:24:36,506 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 22:24:36,506 INFO  [stdout] (default task-4)     select
+2018-04-24 22:24:36,506 INFO  [stdout] (default task-4)         country0_.id as id1_3_,
+2018-04-24 22:24:36,506 INFO  [stdout] (default task-4)         country0_.created_at as created_2_3_,
+2018-04-24 22:24:36,506 INFO  [stdout] (default task-4)         country0_.updated_at as updated_3_3_,
+2018-04-24 22:24:36,508 INFO  [stdout] (default task-4)         country0_.description as descript4_3_ 
+2018-04-24 22:24:36,509 INFO  [stdout] (default task-4)     from
+2018-04-24 22:24:36,509 INFO  [stdout] (default task-4)         countries country0_
+2018-04-24 22:24:36,509 INFO  [stdout] (default task-3) ===============================================
+2018-04-24 22:24:36,510 INFO  [stdout] (default task-3) =============TOKEN NAO CONFIAVEL ==============
+2018-04-24 22:24:36,510 INFO  [stdout] (default task-3) ===============================================
+2018-04-24 22:24:36,512 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 22:24:36,513 INFO  [stdout] (default task-3)     select
+2018-04-24 22:24:36,513 INFO  [stdout] (default task-3)         userrole0_.id as id1_14_,
+2018-04-24 22:24:36,521 INFO  [stdout] (default task-3)         userrole0_.created_at as created_2_14_,
+2018-04-24 22:24:36,521 INFO  [stdout] (default task-3)         userrole0_.updated_at as updated_3_14_,
+2018-04-24 22:24:36,521 INFO  [stdout] (default task-3)         userrole0_.description as descript4_14_ 
+2018-04-24 22:24:36,521 INFO  [stdout] (default task-3)     from
+2018-04-24 22:24:36,521 INFO  [stdout] (default task-3)         users_roles userrole0_ limit ?
+2018-04-24 22:24:36,525 INFO  [stdout] (default task-1) Hibernate: 
+2018-04-24 22:24:36,530 INFO  [stdout] (default task-1)     select
+2018-04-24 22:24:36,530 INFO  [stdout] (default task-1)         state0_.id as id1_12_0_,
+2018-04-24 22:24:36,531 INFO  [stdout] (default task-1)         state0_.created_at as created_2_12_0_,
+2018-04-24 22:24:36,531 INFO  [stdout] (default task-1)         state0_.updated_at as updated_3_12_0_,
+2018-04-24 22:24:36,531 INFO  [stdout] (default task-1)         state0_.Abbrev as Abbrev4_12_0_,
+2018-04-24 22:24:36,532 INFO  [stdout] (default task-1)         state0_.country_id as country_6_12_0_,
+2018-04-24 22:24:36,532 INFO  [stdout] (default task-1)         state0_.description as descript5_12_0_,
+2018-04-24 22:24:36,532 INFO  [stdout] (default task-1)         country1_.id as id1_3_1_,
+2018-04-24 22:24:36,532 INFO  [stdout] (default task-1)         country1_.created_at as created_2_3_1_,
+2018-04-24 22:24:36,535 INFO  [stdout] (default task-1)         country1_.updated_at as updated_3_3_1_,
+2018-04-24 22:24:36,536 INFO  [stdout] (default task-1)         country1_.description as descript4_3_1_ 
+2018-04-24 22:24:36,536 INFO  [stdout] (default task-1)     from
+2018-04-24 22:24:36,536 INFO  [stdout] (default task-1)         states state0_ 
+2018-04-24 22:24:36,538 INFO  [stdout] (default task-1)     inner join
+2018-04-24 22:24:36,538 INFO  [stdout] (default task-1)         countries country1_ 
+2018-04-24 22:24:36,538 INFO  [stdout] (default task-1)             on state0_.country_id=country1_.id 
+2018-04-24 22:24:36,538 INFO  [stdout] (default task-1)     where
+2018-04-24 22:24:36,539 INFO  [stdout] (default task-1)         state0_.id=?
+2018-04-24 22:24:36,544 INFO  [stdout] (default task-1) Hibernate: 
+2018-04-24 22:24:36,545 INFO  [stdout] (default task-1)     select
+2018-04-24 22:24:36,545 INFO  [stdout] (default task-1)         state0_.id as id1_12_0_,
+2018-04-24 22:24:36,545 INFO  [stdout] (default task-1)         state0_.created_at as created_2_12_0_,
+2018-04-24 22:24:36,545 INFO  [stdout] (default task-1)         state0_.updated_at as updated_3_12_0_,
+2018-04-24 22:24:36,545 INFO  [stdout] (default task-1)         state0_.Abbrev as Abbrev4_12_0_,
+2018-04-24 22:24:36,546 INFO  [stdout] (default task-1)         state0_.country_id as country_6_12_0_,
+2018-04-24 22:24:36,546 INFO  [stdout] (default task-1)         state0_.description as descript5_12_0_,
+2018-04-24 22:24:36,546 INFO  [stdout] (default task-1)         country1_.id as id1_3_1_,
+2018-04-24 22:24:36,546 INFO  [stdout] (default task-1)         country1_.created_at as created_2_3_1_,
+2018-04-24 22:24:36,547 INFO  [stdout] (default task-1)         country1_.updated_at as updated_3_3_1_,
+2018-04-24 22:24:36,547 INFO  [stdout] (default task-1)         country1_.description as descript4_3_1_ 
+2018-04-24 22:24:36,547 INFO  [stdout] (default task-1)     from
+2018-04-24 22:24:36,547 INFO  [stdout] (default task-1)         states state0_ 
+2018-04-24 22:24:36,547 INFO  [stdout] (default task-1)     inner join
+2018-04-24 22:24:36,548 INFO  [stdout] (default task-1)         countries country1_ 
+2018-04-24 22:24:36,548 INFO  [stdout] (default task-1)             on state0_.country_id=country1_.id 
+2018-04-24 22:24:36,548 INFO  [stdout] (default task-1)     where
+2018-04-24 22:24:36,548 INFO  [stdout] (default task-1)         state0_.id=?
+2018-04-24 22:27:40,211 INFO  [stdout] (default task-1) Hibernate: 
+2018-04-24 22:27:40,211 INFO  [stdout] (default task-1)     select
+2018-04-24 22:27:40,212 INFO  [stdout] (default task-1)         gender0_.id as id1_6_,
+2018-04-24 22:27:40,212 INFO  [stdout] (default task-1)         gender0_.created_at as created_2_6_,
+2018-04-24 22:27:40,212 INFO  [stdout] (default task-1)         gender0_.updated_at as updated_3_6_,
+2018-04-24 22:27:40,212 INFO  [stdout] (default task-1)         gender0_.abbrev as abbrev4_6_,
+2018-04-24 22:27:40,212 INFO  [stdout] (default task-1)         gender0_.description as descript5_6_ 
+2018-04-24 22:27:40,213 INFO  [stdout] (default task-1)     from
+2018-04-24 22:27:40,213 INFO  [stdout] (default task-1)         genders gender0_
+2018-04-24 22:27:40,678 INFO  [stdout] (default task-1) Hibernate: 
+2018-04-24 22:27:40,678 INFO  [stdout] (default task-1)     select
+2018-04-24 22:27:40,681 INFO  [stdout] (default task-1)         country0_.id as id1_3_,
+2018-04-24 22:27:40,681 INFO  [stdout] (default task-1)         country0_.created_at as created_2_3_,
+2018-04-24 22:27:40,681 INFO  [stdout] (default task-1)         country0_.updated_at as updated_3_3_,
+2018-04-24 22:27:40,681 INFO  [stdout] (default task-1)         country0_.description as descript4_3_ 
+2018-04-24 22:27:40,682 INFO  [stdout] (default task-1)     from
+2018-04-24 22:27:40,682 INFO  [stdout] (default task-1)         countries country0_
+2018-04-24 22:27:40,682 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 22:27:40,682 INFO  [stdout] (default task-3)     select
+2018-04-24 22:27:40,682 INFO  [stdout] (default task-3)         state0_.id as id1_12_,
+2018-04-24 22:27:40,683 INFO  [stdout] (default task-3)         state0_.created_at as created_2_12_,
+2018-04-24 22:27:40,683 INFO  [stdout] (default task-3)         state0_.updated_at as updated_3_12_,
+2018-04-24 22:27:40,683 INFO  [stdout] (default task-3)         state0_.Abbrev as Abbrev4_12_,
+2018-04-24 22:27:40,683 INFO  [stdout] (default task-3)         state0_.country_id as country_6_12_,
+2018-04-24 22:27:40,683 INFO  [stdout] (default task-3)         state0_.description as descript5_12_ 
+2018-04-24 22:27:40,683 INFO  [stdout] (default task-3)     from
+2018-04-24 22:27:40,683 INFO  [stdout] (default task-3)         states state0_
+2018-04-24 22:27:40,686 INFO  [stdout] (default task-2) ===============================================
+2018-04-24 22:27:40,686 INFO  [stdout] (default task-2) =============TOKEN NAO CONFIAVEL ==============
+2018-04-24 22:27:40,687 INFO  [stdout] (default task-2) ===============================================
+2018-04-24 22:27:40,688 INFO  [stdout] (default task-2) Hibernate: 
+2018-04-24 22:27:40,689 INFO  [stdout] (default task-2)     select
+2018-04-24 22:27:40,689 INFO  [stdout] (default task-2)         userrole0_.id as id1_14_,
+2018-04-24 22:27:40,689 INFO  [stdout] (default task-2)         userrole0_.created_at as created_2_14_,
+2018-04-24 22:27:40,690 INFO  [stdout] (default task-2)         userrole0_.updated_at as updated_3_14_,
+2018-04-24 22:27:40,690 INFO  [stdout] (default task-2)         userrole0_.description as descript4_14_ 
+2018-04-24 22:27:40,690 INFO  [stdout] (default task-2)     from
+2018-04-24 22:27:40,690 INFO  [stdout] (default task-2)         users_roles userrole0_ limit ?
+2018-04-24 22:27:40,690 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 22:27:40,690 INFO  [stdout] (default task-4)     select
+2018-04-24 22:27:40,691 INFO  [stdout] (default task-4)         city0_.id as id1_2_,
+2018-04-24 22:27:40,691 INFO  [stdout] (default task-4)         city0_.created_at as created_2_2_,
+2018-04-24 22:27:40,691 INFO  [stdout] (default task-4)         city0_.updated_at as updated_3_2_,
+2018-04-24 22:27:40,691 INFO  [stdout] (default task-4)         city0_.description as descript4_2_,
+2018-04-24 22:27:40,691 INFO  [stdout] (default task-4)         city0_.state_id as state_id5_2_ 
+2018-04-24 22:27:40,691 INFO  [stdout] (default task-4)     from
+2018-04-24 22:27:40,691 INFO  [stdout] (default task-4)         cities city0_
+2018-04-24 22:27:40,693 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 22:27:40,696 INFO  [stdout] (default task-4)     select
+2018-04-24 22:27:40,701 INFO  [stdout] (default task-4)         state0_.id as id1_12_0_,
+2018-04-24 22:27:40,701 INFO  [stdout] (default task-4)         state0_.created_at as created_2_12_0_,
+2018-04-24 22:27:40,702 INFO  [stdout] (default task-4)         state0_.updated_at as updated_3_12_0_,
+2018-04-24 22:27:40,702 INFO  [stdout] (default task-4)         state0_.Abbrev as Abbrev4_12_0_,
+2018-04-24 22:27:40,702 INFO  [stdout] (default task-4)         state0_.country_id as country_6_12_0_,
+2018-04-24 22:27:40,703 INFO  [stdout] (default task-4)         state0_.description as descript5_12_0_,
+2018-04-24 22:27:40,704 INFO  [stdout] (default task-4)         country1_.id as id1_3_1_,
+2018-04-24 22:27:40,704 INFO  [stdout] (default task-4)         country1_.created_at as created_2_3_1_,
+2018-04-24 22:27:40,704 INFO  [stdout] (default task-4)         country1_.updated_at as updated_3_3_1_,
+2018-04-24 22:27:40,704 INFO  [stdout] (default task-4)         country1_.description as descript4_3_1_ 
+2018-04-24 22:27:40,705 INFO  [stdout] (default task-4)     from
+2018-04-24 22:27:40,705 INFO  [stdout] (default task-4)         states state0_ 
+2018-04-24 22:27:40,705 INFO  [stdout] (default task-4)     inner join
+2018-04-24 22:27:40,705 INFO  [stdout] (default task-4)         countries country1_ 
+2018-04-24 22:27:40,706 INFO  [stdout] (default task-4)             on state0_.country_id=country1_.id 
+2018-04-24 22:27:40,706 INFO  [stdout] (default task-4)     where
+2018-04-24 22:27:40,706 INFO  [stdout] (default task-4)         state0_.id=?
+2018-04-24 22:27:40,707 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 22:27:40,708 INFO  [stdout] (default task-3)     select
+2018-04-24 22:27:40,708 INFO  [stdout] (default task-3)         country0_.id as id1_3_0_,
+2018-04-24 22:27:40,708 INFO  [stdout] (default task-3)         country0_.created_at as created_2_3_0_,
+2018-04-24 22:27:40,708 INFO  [stdout] (default task-3)         country0_.updated_at as updated_3_3_0_,
+2018-04-24 22:27:40,708 INFO  [stdout] (default task-3)         country0_.description as descript4_3_0_ 
+2018-04-24 22:27:40,708 INFO  [stdout] (default task-3)     from
+2018-04-24 22:27:40,709 INFO  [stdout] (default task-3)         countries country0_ 
+2018-04-24 22:27:40,709 INFO  [stdout] (default task-3)     where
+2018-04-24 22:27:40,709 INFO  [stdout] (default task-3)         country0_.id=?
+2018-04-24 22:27:40,718 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 22:27:40,721 INFO  [stdout] (default task-4)     select
+2018-04-24 22:27:40,722 INFO  [stdout] (default task-4)         state0_.id as id1_12_0_,
+2018-04-24 22:27:40,722 INFO  [stdout] (default task-4)         state0_.created_at as created_2_12_0_,
+2018-04-24 22:27:40,722 INFO  [stdout] (default task-4)         state0_.updated_at as updated_3_12_0_,
+2018-04-24 22:27:40,722 INFO  [stdout] (default task-4)         state0_.Abbrev as Abbrev4_12_0_,
+2018-04-24 22:27:40,723 INFO  [stdout] (default task-4)         state0_.country_id as country_6_12_0_,
+2018-04-24 22:27:40,723 INFO  [stdout] (default task-4)         state0_.description as descript5_12_0_,
+2018-04-24 22:27:40,723 INFO  [stdout] (default task-4)         country1_.id as id1_3_1_,
+2018-04-24 22:27:40,723 INFO  [stdout] (default task-4)         country1_.created_at as created_2_3_1_,
+2018-04-24 22:27:40,724 INFO  [stdout] (default task-4)         country1_.updated_at as updated_3_3_1_,
+2018-04-24 22:27:40,724 INFO  [stdout] (default task-4)         country1_.description as descript4_3_1_ 
+2018-04-24 22:27:40,729 INFO  [stdout] (default task-4)     from
+2018-04-24 22:27:40,729 INFO  [stdout] (default task-4)         states state0_ 
+2018-04-24 22:27:40,730 INFO  [stdout] (default task-4)     inner join
+2018-04-24 22:27:40,730 INFO  [stdout] (default task-4)         countries country1_ 
+2018-04-24 22:27:40,730 INFO  [stdout] (default task-4)             on state0_.country_id=country1_.id 
+2018-04-24 22:27:40,730 INFO  [stdout] (default task-4)     where
+2018-04-24 22:27:40,731 INFO  [stdout] (default task-4)         state0_.id=?
+2018-04-24 22:27:40,733 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 22:27:40,733 INFO  [stdout] (default task-4)     select
+2018-04-24 22:27:40,733 INFO  [stdout] (default task-4)         state0_.id as id1_12_0_,
+2018-04-24 22:27:40,733 INFO  [stdout] (default task-4)         state0_.created_at as created_2_12_0_,
+2018-04-24 22:27:40,734 INFO  [stdout] (default task-4)         state0_.updated_at as updated_3_12_0_,
+2018-04-24 22:27:40,738 INFO  [stdout] (default task-4)         state0_.Abbrev as Abbrev4_12_0_,
+2018-04-24 22:27:40,738 INFO  [stdout] (default task-4)         state0_.country_id as country_6_12_0_,
+2018-04-24 22:27:40,738 INFO  [stdout] (default task-4)         state0_.description as descript5_12_0_,
+2018-04-24 22:27:40,738 INFO  [stdout] (default task-4)         country1_.id as id1_3_1_,
+2018-04-24 22:27:40,739 INFO  [stdout] (default task-4)         country1_.created_at as created_2_3_1_,
+2018-04-24 22:27:40,739 INFO  [stdout] (default task-4)         country1_.updated_at as updated_3_3_1_,
+2018-04-24 22:27:40,739 INFO  [stdout] (default task-4)         country1_.description as descript4_3_1_ 
+2018-04-24 22:27:40,739 INFO  [stdout] (default task-4)     from
+2018-04-24 22:27:40,740 INFO  [stdout] (default task-4)         states state0_ 
+2018-04-24 22:27:40,740 INFO  [stdout] (default task-4)     inner join
+2018-04-24 22:27:40,740 INFO  [stdout] (default task-4)         countries country1_ 
+2018-04-24 22:27:40,740 INFO  [stdout] (default task-4)             on state0_.country_id=country1_.id 
+2018-04-24 22:27:40,741 INFO  [stdout] (default task-4)     where
+2018-04-24 22:27:40,741 INFO  [stdout] (default task-4)         state0_.id=?
+2018-04-24 23:40:00,000 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:00,001 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:00,001 INFO  [stdout] (default task-4)         user0_.id as id1_13_,
+2018-04-24 23:40:00,001 INFO  [stdout] (default task-4)         user0_.created_at as created_2_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.updated_at as updated_3_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.CPF as CPF4_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.criminal_recors as criminal5_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.date_of_birth as date_of_6_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.email as email7_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.fathers_name as fathers_8_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.gender_id as gender_18_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.mothers_name as mothers_9_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.name as name10_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.nationality as nationa11_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.naturalness as natural12_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.password as passwor13_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.responding_process as respond14_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.RG as RG15_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.RG_issuing_body as RG_issu16_13_,
+2018-04-24 23:40:00,002 INFO  [stdout] (default task-4)         user0_.rg_uf as rg_uf17_13_,
+2018-04-24 23:40:00,003 INFO  [stdout] (default task-4)         user0_.role_id as role_id19_13_ 
+2018-04-24 23:40:00,003 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:00,003 INFO  [stdout] (default task-4)         users user0_ 
+2018-04-24 23:40:00,003 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:00,003 INFO  [stdout] (default task-4)         user0_.CPF=?
+2018-04-24 23:40:00,007 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:00,007 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:00,008 INFO  [stdout] (default task-4)         gender0_.id as id1_6_0_,
+2018-04-24 23:40:00,008 INFO  [stdout] (default task-4)         gender0_.created_at as created_2_6_0_,
+2018-04-24 23:40:00,008 INFO  [stdout] (default task-4)         gender0_.updated_at as updated_3_6_0_,
+2018-04-24 23:40:00,008 INFO  [stdout] (default task-4)         gender0_.abbrev as abbrev4_6_0_,
+2018-04-24 23:40:00,008 INFO  [stdout] (default task-4)         gender0_.description as descript5_6_0_ 
+2018-04-24 23:40:00,008 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:00,008 INFO  [stdout] (default task-4)         genders gender0_ 
+2018-04-24 23:40:00,009 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:00,009 INFO  [stdout] (default task-4)         gender0_.id=?
+2018-04-24 23:40:00,010 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:00,010 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:00,010 INFO  [stdout] (default task-4)         userrole0_.id as id1_14_0_,
+2018-04-24 23:40:00,011 INFO  [stdout] (default task-4)         userrole0_.created_at as created_2_14_0_,
+2018-04-24 23:40:00,011 INFO  [stdout] (default task-4)         userrole0_.updated_at as updated_3_14_0_,
+2018-04-24 23:40:00,011 INFO  [stdout] (default task-4)         userrole0_.description as descript4_14_0_ 
+2018-04-24 23:40:00,011 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:00,011 INFO  [stdout] (default task-4)         users_roles userrole0_ 
+2018-04-24 23:40:00,011 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:00,012 INFO  [stdout] (default task-4)         userrole0_.id=?
+2018-04-24 23:40:00,013 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:00,013 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:00,013 INFO  [stdout] (default task-4)         addresslis0_.user_id as user_id1_1_0_,
+2018-04-24 23:40:00,014 INFO  [stdout] (default task-4)         addresslis0_.address_id as address_2_1_0_,
+2018-04-24 23:40:00,014 INFO  [stdout] (default task-4)         address1_.id as id1_0_1_,
+2018-04-24 23:40:00,014 INFO  [stdout] (default task-4)         address1_.created_at as created_2_0_1_,
+2018-04-24 23:40:00,014 INFO  [stdout] (default task-4)         address1_.updated_at as updated_3_0_1_,
+2018-04-24 23:40:00,014 INFO  [stdout] (default task-4)         address1_.addressNumber as addressN4_0_1_,
+2018-04-24 23:40:00,014 INFO  [stdout] (default task-4)         address1_.cep as cep5_0_1_,
+2018-04-24 23:40:00,014 INFO  [stdout] (default task-4)         address1_.city_id as city_id9_0_1_,
+2018-04-24 23:40:00,015 INFO  [stdout] (default task-4)         address1_.complement as compleme6_0_1_,
+2018-04-24 23:40:00,015 INFO  [stdout] (default task-4)         address1_.neighborhood as neighbor7_0_1_,
+2018-04-24 23:40:00,015 INFO  [stdout] (default task-4)         address1_.street as street8_0_1_,
+2018-04-24 23:40:00,015 INFO  [stdout] (default task-4)         city2_.id as id1_2_2_,
+2018-04-24 23:40:00,015 INFO  [stdout] (default task-4)         city2_.created_at as created_2_2_2_,
+2018-04-24 23:40:00,015 INFO  [stdout] (default task-4)         city2_.updated_at as updated_3_2_2_,
+2018-04-24 23:40:00,015 INFO  [stdout] (default task-4)         city2_.description as descript4_2_2_,
+2018-04-24 23:40:00,016 INFO  [stdout] (default task-4)         city2_.state_id as state_id5_2_2_,
+2018-04-24 23:40:00,016 INFO  [stdout] (default task-4)         state3_.id as id1_12_3_,
+2018-04-24 23:40:00,016 INFO  [stdout] (default task-4)         state3_.created_at as created_2_12_3_,
+2018-04-24 23:40:00,016 INFO  [stdout] (default task-4)         state3_.updated_at as updated_3_12_3_,
+2018-04-24 23:40:00,016 INFO  [stdout] (default task-4)         state3_.Abbrev as Abbrev4_12_3_,
+2018-04-24 23:40:00,017 INFO  [stdout] (default task-4)         state3_.country_id as country_6_12_3_,
+2018-04-24 23:40:00,017 INFO  [stdout] (default task-4)         state3_.description as descript5_12_3_ 
+2018-04-24 23:40:00,017 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:00,017 INFO  [stdout] (default task-4)         address_user addresslis0_ 
+2018-04-24 23:40:00,017 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:00,018 INFO  [stdout] (default task-4)         address address1_ 
+2018-04-24 23:40:00,018 INFO  [stdout] (default task-4)             on addresslis0_.address_id=address1_.id 
+2018-04-24 23:40:00,018 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:00,018 INFO  [stdout] (default task-4)         cities city2_ 
+2018-04-24 23:40:00,018 INFO  [stdout] (default task-4)             on address1_.city_id=city2_.id 
+2018-04-24 23:40:00,018 INFO  [stdout] (default task-4)     left outer join
+2018-04-24 23:40:00,018 INFO  [stdout] (default task-4)         states state3_ 
+2018-04-24 23:40:00,019 INFO  [stdout] (default task-4)             on city2_.state_id=state3_.id 
+2018-04-24 23:40:00,019 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:00,019 INFO  [stdout] (default task-4)         addresslis0_.user_id=?
+2018-04-24 23:40:00,021 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:00,021 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:00,021 INFO  [stdout] (default task-4)         country0_.id as id1_3_0_,
+2018-04-24 23:40:00,021 INFO  [stdout] (default task-4)         country0_.created_at as created_2_3_0_,
+2018-04-24 23:40:00,022 INFO  [stdout] (default task-4)         country0_.updated_at as updated_3_3_0_,
+2018-04-24 23:40:00,022 INFO  [stdout] (default task-4)         country0_.description as descript4_3_0_ 
+2018-04-24 23:40:00,022 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:00,022 INFO  [stdout] (default task-4)         countries country0_ 
+2018-04-24 23:40:00,022 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:00,022 INFO  [stdout] (default task-4)         country0_.id=?
+2018-04-24 23:40:06,346 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:06,346 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:06,346 INFO  [stdout] (default task-4)         user0_.id as id1_13_,
+2018-04-24 23:40:06,346 INFO  [stdout] (default task-4)         user0_.created_at as created_2_13_,
+2018-04-24 23:40:06,347 INFO  [stdout] (default task-4)         user0_.updated_at as updated_3_13_,
+2018-04-24 23:40:06,347 INFO  [stdout] (default task-4)         user0_.CPF as CPF4_13_,
+2018-04-24 23:40:06,347 INFO  [stdout] (default task-4)         user0_.criminal_recors as criminal5_13_,
+2018-04-24 23:40:06,347 INFO  [stdout] (default task-4)         user0_.date_of_birth as date_of_6_13_,
+2018-04-24 23:40:06,348 INFO  [stdout] (default task-4)         user0_.email as email7_13_,
+2018-04-24 23:40:06,348 INFO  [stdout] (default task-4)         user0_.fathers_name as fathers_8_13_,
+2018-04-24 23:40:06,348 INFO  [stdout] (default task-4)         user0_.gender_id as gender_18_13_,
+2018-04-24 23:40:06,348 INFO  [stdout] (default task-4)         user0_.mothers_name as mothers_9_13_,
+2018-04-24 23:40:06,348 INFO  [stdout] (default task-4)         user0_.name as name10_13_,
+2018-04-24 23:40:06,349 INFO  [stdout] (default task-4)         user0_.nationality as nationa11_13_,
+2018-04-24 23:40:06,349 INFO  [stdout] (default task-4)         user0_.naturalness as natural12_13_,
+2018-04-24 23:40:06,349 INFO  [stdout] (default task-4)         user0_.password as passwor13_13_,
+2018-04-24 23:40:06,350 INFO  [stdout] (default task-4)         user0_.responding_process as respond14_13_,
+2018-04-24 23:40:06,350 INFO  [stdout] (default task-4)         user0_.RG as RG15_13_,
+2018-04-24 23:40:06,350 INFO  [stdout] (default task-4)         user0_.RG_issuing_body as RG_issu16_13_,
+2018-04-24 23:40:06,351 INFO  [stdout] (default task-4)         user0_.rg_uf as rg_uf17_13_,
+2018-04-24 23:40:06,351 INFO  [stdout] (default task-4)         user0_.role_id as role_id19_13_ 
+2018-04-24 23:40:06,351 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:06,351 INFO  [stdout] (default task-4)         users user0_ 
+2018-04-24 23:40:06,351 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:06,352 INFO  [stdout] (default task-4)         user0_.CPF=?
+2018-04-24 23:40:06,354 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:06,354 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:06,355 INFO  [stdout] (default task-4)         gender0_.id as id1_6_0_,
+2018-04-24 23:40:06,355 INFO  [stdout] (default task-4)         gender0_.created_at as created_2_6_0_,
+2018-04-24 23:40:06,355 INFO  [stdout] (default task-4)         gender0_.updated_at as updated_3_6_0_,
+2018-04-24 23:40:06,355 INFO  [stdout] (default task-4)         gender0_.abbrev as abbrev4_6_0_,
+2018-04-24 23:40:06,356 INFO  [stdout] (default task-4)         gender0_.description as descript5_6_0_ 
+2018-04-24 23:40:06,356 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:06,356 INFO  [stdout] (default task-4)         genders gender0_ 
+2018-04-24 23:40:06,356 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:06,357 INFO  [stdout] (default task-4)         gender0_.id=?
+2018-04-24 23:40:06,359 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:06,359 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:06,359 INFO  [stdout] (default task-4)         userrole0_.id as id1_14_0_,
+2018-04-24 23:40:06,359 INFO  [stdout] (default task-4)         userrole0_.created_at as created_2_14_0_,
+2018-04-24 23:40:06,359 INFO  [stdout] (default task-4)         userrole0_.updated_at as updated_3_14_0_,
+2018-04-24 23:40:06,359 INFO  [stdout] (default task-4)         userrole0_.description as descript4_14_0_ 
+2018-04-24 23:40:06,360 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:06,360 INFO  [stdout] (default task-4)         users_roles userrole0_ 
+2018-04-24 23:40:06,360 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:06,360 INFO  [stdout] (default task-4)         userrole0_.id=?
+2018-04-24 23:40:06,362 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:06,362 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:06,363 INFO  [stdout] (default task-4)         addresslis0_.user_id as user_id1_1_0_,
+2018-04-24 23:40:06,363 INFO  [stdout] (default task-4)         addresslis0_.address_id as address_2_1_0_,
+2018-04-24 23:40:06,363 INFO  [stdout] (default task-4)         address1_.id as id1_0_1_,
+2018-04-24 23:40:06,363 INFO  [stdout] (default task-4)         address1_.created_at as created_2_0_1_,
+2018-04-24 23:40:06,364 INFO  [stdout] (default task-4)         address1_.updated_at as updated_3_0_1_,
+2018-04-24 23:40:06,365 INFO  [stdout] (default task-4)         address1_.addressNumber as addressN4_0_1_,
+2018-04-24 23:40:06,365 INFO  [stdout] (default task-4)         address1_.cep as cep5_0_1_,
+2018-04-24 23:40:06,365 INFO  [stdout] (default task-4)         address1_.city_id as city_id9_0_1_,
+2018-04-24 23:40:06,365 INFO  [stdout] (default task-4)         address1_.complement as compleme6_0_1_,
+2018-04-24 23:40:06,366 INFO  [stdout] (default task-4)         address1_.neighborhood as neighbor7_0_1_,
+2018-04-24 23:40:06,366 INFO  [stdout] (default task-4)         address1_.street as street8_0_1_,
+2018-04-24 23:40:06,366 INFO  [stdout] (default task-4)         city2_.id as id1_2_2_,
+2018-04-24 23:40:06,366 INFO  [stdout] (default task-4)         city2_.created_at as created_2_2_2_,
+2018-04-24 23:40:06,366 INFO  [stdout] (default task-4)         city2_.updated_at as updated_3_2_2_,
+2018-04-24 23:40:06,367 INFO  [stdout] (default task-4)         city2_.description as descript4_2_2_,
+2018-04-24 23:40:06,367 INFO  [stdout] (default task-4)         city2_.state_id as state_id5_2_2_,
+2018-04-24 23:40:06,367 INFO  [stdout] (default task-4)         state3_.id as id1_12_3_,
+2018-04-24 23:40:06,368 INFO  [stdout] (default task-4)         state3_.created_at as created_2_12_3_,
+2018-04-24 23:40:06,368 INFO  [stdout] (default task-4)         state3_.updated_at as updated_3_12_3_,
+2018-04-24 23:40:06,368 INFO  [stdout] (default task-4)         state3_.Abbrev as Abbrev4_12_3_,
+2018-04-24 23:40:06,368 INFO  [stdout] (default task-4)         state3_.country_id as country_6_12_3_,
+2018-04-24 23:40:06,368 INFO  [stdout] (default task-4)         state3_.description as descript5_12_3_ 
+2018-04-24 23:40:06,369 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:06,369 INFO  [stdout] (default task-4)         address_user addresslis0_ 
+2018-04-24 23:40:06,369 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:06,369 INFO  [stdout] (default task-4)         address address1_ 
+2018-04-24 23:40:06,369 INFO  [stdout] (default task-4)             on addresslis0_.address_id=address1_.id 
+2018-04-24 23:40:06,370 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:06,370 INFO  [stdout] (default task-4)         cities city2_ 
+2018-04-24 23:40:06,370 INFO  [stdout] (default task-4)             on address1_.city_id=city2_.id 
+2018-04-24 23:40:06,370 INFO  [stdout] (default task-4)     left outer join
+2018-04-24 23:40:06,370 INFO  [stdout] (default task-4)         states state3_ 
+2018-04-24 23:40:06,370 INFO  [stdout] (default task-4)             on city2_.state_id=state3_.id 
+2018-04-24 23:40:06,370 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:06,370 INFO  [stdout] (default task-4)         addresslis0_.user_id=?
+2018-04-24 23:40:06,373 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:06,373 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:06,374 INFO  [stdout] (default task-4)         country0_.id as id1_3_0_,
+2018-04-24 23:40:06,374 INFO  [stdout] (default task-4)         country0_.created_at as created_2_3_0_,
+2018-04-24 23:40:06,374 INFO  [stdout] (default task-4)         country0_.updated_at as updated_3_3_0_,
+2018-04-24 23:40:06,374 INFO  [stdout] (default task-4)         country0_.description as descript4_3_0_ 
+2018-04-24 23:40:06,375 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:06,375 INFO  [stdout] (default task-4)         countries country0_ 
+2018-04-24 23:40:06,375 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:06,375 INFO  [stdout] (default task-4)         country0_.id=?
+2018-04-24 23:40:07,255 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:07,256 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:07,256 INFO  [stdout] (default task-4)         user0_.id as id1_13_,
+2018-04-24 23:40:07,256 INFO  [stdout] (default task-4)         user0_.created_at as created_2_13_,
+2018-04-24 23:40:07,256 INFO  [stdout] (default task-4)         user0_.updated_at as updated_3_13_,
+2018-04-24 23:40:07,257 INFO  [stdout] (default task-4)         user0_.CPF as CPF4_13_,
+2018-04-24 23:40:07,257 INFO  [stdout] (default task-4)         user0_.criminal_recors as criminal5_13_,
+2018-04-24 23:40:07,257 INFO  [stdout] (default task-4)         user0_.date_of_birth as date_of_6_13_,
+2018-04-24 23:40:07,257 INFO  [stdout] (default task-4)         user0_.email as email7_13_,
+2018-04-24 23:40:07,257 INFO  [stdout] (default task-4)         user0_.fathers_name as fathers_8_13_,
+2018-04-24 23:40:07,258 INFO  [stdout] (default task-4)         user0_.gender_id as gender_18_13_,
+2018-04-24 23:40:07,258 INFO  [stdout] (default task-4)         user0_.mothers_name as mothers_9_13_,
+2018-04-24 23:40:07,258 INFO  [stdout] (default task-4)         user0_.name as name10_13_,
+2018-04-24 23:40:07,258 INFO  [stdout] (default task-4)         user0_.nationality as nationa11_13_,
+2018-04-24 23:40:07,258 INFO  [stdout] (default task-4)         user0_.naturalness as natural12_13_,
+2018-04-24 23:40:07,258 INFO  [stdout] (default task-4)         user0_.password as passwor13_13_,
+2018-04-24 23:40:07,259 INFO  [stdout] (default task-4)         user0_.responding_process as respond14_13_,
+2018-04-24 23:40:07,259 INFO  [stdout] (default task-4)         user0_.RG as RG15_13_,
+2018-04-24 23:40:07,259 INFO  [stdout] (default task-4)         user0_.RG_issuing_body as RG_issu16_13_,
+2018-04-24 23:40:07,259 INFO  [stdout] (default task-4)         user0_.rg_uf as rg_uf17_13_,
+2018-04-24 23:40:07,259 INFO  [stdout] (default task-4)         user0_.role_id as role_id19_13_ 
+2018-04-24 23:40:07,259 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:07,260 INFO  [stdout] (default task-4)         users user0_ 
+2018-04-24 23:40:07,260 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:07,260 INFO  [stdout] (default task-4)         user0_.CPF=?
+2018-04-24 23:40:07,262 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:07,262 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:07,262 INFO  [stdout] (default task-4)         gender0_.id as id1_6_0_,
+2018-04-24 23:40:07,262 INFO  [stdout] (default task-4)         gender0_.created_at as created_2_6_0_,
+2018-04-24 23:40:07,262 INFO  [stdout] (default task-4)         gender0_.updated_at as updated_3_6_0_,
+2018-04-24 23:40:07,263 INFO  [stdout] (default task-4)         gender0_.abbrev as abbrev4_6_0_,
+2018-04-24 23:40:07,263 INFO  [stdout] (default task-4)         gender0_.description as descript5_6_0_ 
+2018-04-24 23:40:07,263 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:07,263 INFO  [stdout] (default task-4)         genders gender0_ 
+2018-04-24 23:40:07,263 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:07,263 INFO  [stdout] (default task-4)         gender0_.id=?
+2018-04-24 23:40:07,264 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:07,264 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:07,265 INFO  [stdout] (default task-4)         userrole0_.id as id1_14_0_,
+2018-04-24 23:40:07,265 INFO  [stdout] (default task-4)         userrole0_.created_at as created_2_14_0_,
+2018-04-24 23:40:07,265 INFO  [stdout] (default task-4)         userrole0_.updated_at as updated_3_14_0_,
+2018-04-24 23:40:07,265 INFO  [stdout] (default task-4)         userrole0_.description as descript4_14_0_ 
+2018-04-24 23:40:07,265 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:07,266 INFO  [stdout] (default task-4)         users_roles userrole0_ 
+2018-04-24 23:40:07,266 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:07,266 INFO  [stdout] (default task-4)         userrole0_.id=?
+2018-04-24 23:40:07,267 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:07,267 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:07,267 INFO  [stdout] (default task-4)         addresslis0_.user_id as user_id1_1_0_,
+2018-04-24 23:40:07,267 INFO  [stdout] (default task-4)         addresslis0_.address_id as address_2_1_0_,
+2018-04-24 23:40:07,268 INFO  [stdout] (default task-4)         address1_.id as id1_0_1_,
+2018-04-24 23:40:07,268 INFO  [stdout] (default task-4)         address1_.created_at as created_2_0_1_,
+2018-04-24 23:40:07,268 INFO  [stdout] (default task-4)         address1_.updated_at as updated_3_0_1_,
+2018-04-24 23:40:07,268 INFO  [stdout] (default task-4)         address1_.addressNumber as addressN4_0_1_,
+2018-04-24 23:40:07,268 INFO  [stdout] (default task-4)         address1_.cep as cep5_0_1_,
+2018-04-24 23:40:07,268 INFO  [stdout] (default task-4)         address1_.city_id as city_id9_0_1_,
+2018-04-24 23:40:07,269 INFO  [stdout] (default task-4)         address1_.complement as compleme6_0_1_,
+2018-04-24 23:40:07,269 INFO  [stdout] (default task-4)         address1_.neighborhood as neighbor7_0_1_,
+2018-04-24 23:40:07,269 INFO  [stdout] (default task-4)         address1_.street as street8_0_1_,
+2018-04-24 23:40:07,269 INFO  [stdout] (default task-4)         city2_.id as id1_2_2_,
+2018-04-24 23:40:07,269 INFO  [stdout] (default task-4)         city2_.created_at as created_2_2_2_,
+2018-04-24 23:40:07,270 INFO  [stdout] (default task-4)         city2_.updated_at as updated_3_2_2_,
+2018-04-24 23:40:07,270 INFO  [stdout] (default task-4)         city2_.description as descript4_2_2_,
+2018-04-24 23:40:07,270 INFO  [stdout] (default task-4)         city2_.state_id as state_id5_2_2_,
+2018-04-24 23:40:07,270 INFO  [stdout] (default task-4)         state3_.id as id1_12_3_,
+2018-04-24 23:40:07,270 INFO  [stdout] (default task-4)         state3_.created_at as created_2_12_3_,
+2018-04-24 23:40:07,270 INFO  [stdout] (default task-4)         state3_.updated_at as updated_3_12_3_,
+2018-04-24 23:40:07,271 INFO  [stdout] (default task-4)         state3_.Abbrev as Abbrev4_12_3_,
+2018-04-24 23:40:07,271 INFO  [stdout] (default task-4)         state3_.country_id as country_6_12_3_,
+2018-04-24 23:40:07,271 INFO  [stdout] (default task-4)         state3_.description as descript5_12_3_ 
+2018-04-24 23:40:07,271 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:07,271 INFO  [stdout] (default task-4)         address_user addresslis0_ 
+2018-04-24 23:40:07,271 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:07,271 INFO  [stdout] (default task-4)         address address1_ 
+2018-04-24 23:40:07,271 INFO  [stdout] (default task-4)             on addresslis0_.address_id=address1_.id 
+2018-04-24 23:40:07,272 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:07,272 INFO  [stdout] (default task-4)         cities city2_ 
+2018-04-24 23:40:07,272 INFO  [stdout] (default task-4)             on address1_.city_id=city2_.id 
+2018-04-24 23:40:07,272 INFO  [stdout] (default task-4)     left outer join
+2018-04-24 23:40:07,272 INFO  [stdout] (default task-4)         states state3_ 
+2018-04-24 23:40:07,272 INFO  [stdout] (default task-4)             on city2_.state_id=state3_.id 
+2018-04-24 23:40:07,273 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:07,273 INFO  [stdout] (default task-4)         addresslis0_.user_id=?
+2018-04-24 23:40:07,274 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:07,274 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:07,275 INFO  [stdout] (default task-4)         country0_.id as id1_3_0_,
+2018-04-24 23:40:07,275 INFO  [stdout] (default task-4)         country0_.created_at as created_2_3_0_,
+2018-04-24 23:40:07,275 INFO  [stdout] (default task-4)         country0_.updated_at as updated_3_3_0_,
+2018-04-24 23:40:07,275 INFO  [stdout] (default task-4)         country0_.description as descript4_3_0_ 
+2018-04-24 23:40:07,275 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:07,275 INFO  [stdout] (default task-4)         countries country0_ 
+2018-04-24 23:40:07,276 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:07,276 INFO  [stdout] (default task-4)         country0_.id=?
+2018-04-24 23:40:10,457 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:10,457 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:10,457 INFO  [stdout] (default task-4)         licensecat0_.id as id1_9_,
+2018-04-24 23:40:10,457 INFO  [stdout] (default task-4)         licensecat0_.created_at as created_2_9_,
+2018-04-24 23:40:10,458 INFO  [stdout] (default task-4)         licensecat0_.updated_at as updated_3_9_,
+2018-04-24 23:40:10,458 INFO  [stdout] (default task-4)         licensecat0_.description as descript4_9_,
+2018-04-24 23:40:10,458 INFO  [stdout] (default task-4)         licensecat0_.requirement_id as requirem6_9_,
+2018-04-24 23:40:10,458 INFO  [stdout] (default task-4)         licensecat0_.years_to_expirate as years_to5_9_ 
+2018-04-24 23:40:10,458 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:10,458 INFO  [stdout] (default task-4)         licenses_categories licensecat0_ limit ?
+2018-04-24 23:40:10,462 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:10,462 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:10,462 INFO  [stdout] (default task-4)         requiremen0_.id as id1_10_0_,
+2018-04-24 23:40:10,463 INFO  [stdout] (default task-4)         requiremen0_.created_at as created_2_10_0_,
+2018-04-24 23:40:10,463 INFO  [stdout] (default task-4)         requiremen0_.updated_at as updated_3_10_0_,
+2018-04-24 23:40:10,463 INFO  [stdout] (default task-4)         requiremen0_.criminal_records as criminal4_10_0_,
+2018-04-24 23:40:10,463 INFO  [stdout] (default task-4)         requiremen0_.minimal_age as minimal_5_10_0_,
+2018-04-24 23:40:10,463 INFO  [stdout] (default task-4)         requiremen0_.responding_process as respondi6_10_0_ 
+2018-04-24 23:40:10,463 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:10,464 INFO  [stdout] (default task-4)         requirements requiremen0_ 
+2018-04-24 23:40:10,464 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:10,464 INFO  [stdout] (default task-4)         requiremen0_.id=?
+2018-04-24 23:40:10,466 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:10,466 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:10,466 INFO  [stdout] (default task-4)         requiremen0_.id as id1_10_0_,
+2018-04-24 23:40:10,466 INFO  [stdout] (default task-4)         requiremen0_.created_at as created_2_10_0_,
+2018-04-24 23:40:10,466 INFO  [stdout] (default task-4)         requiremen0_.updated_at as updated_3_10_0_,
+2018-04-24 23:40:10,467 INFO  [stdout] (default task-4)         requiremen0_.criminal_records as criminal4_10_0_,
+2018-04-24 23:40:10,467 INFO  [stdout] (default task-4)         requiremen0_.minimal_age as minimal_5_10_0_,
+2018-04-24 23:40:10,467 INFO  [stdout] (default task-4)         requiremen0_.responding_process as respondi6_10_0_ 
+2018-04-24 23:40:10,467 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:10,467 INFO  [stdout] (default task-4)         requirements requiremen0_ 
+2018-04-24 23:40:10,467 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:10,468 INFO  [stdout] (default task-4)         requiremen0_.id=?
+2018-04-24 23:40:10,469 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:10,469 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:10,469 INFO  [stdout] (default task-4)         exams0_.requirement_id as requirem1_11_0_,
+2018-04-24 23:40:10,470 INFO  [stdout] (default task-4)         exams0_.exam_category_id as exam_cat2_11_0_,
+2018-04-24 23:40:10,470 INFO  [stdout] (default task-4)         examcatego1_.id as id1_4_1_,
+2018-04-24 23:40:10,470 INFO  [stdout] (default task-4)         examcatego1_.created_at as created_2_4_1_,
+2018-04-24 23:40:10,470 INFO  [stdout] (default task-4)         examcatego1_.updated_at as updated_3_4_1_,
+2018-04-24 23:40:10,470 INFO  [stdout] (default task-4)         examcatego1_.description as descript4_4_1_,
+2018-04-24 23:40:10,470 INFO  [stdout] (default task-4)         examcatego1_.role_id as role_id5_4_1_,
+2018-04-24 23:40:10,471 INFO  [stdout] (default task-4)         userrole2_.id as id1_14_2_,
+2018-04-24 23:40:10,471 INFO  [stdout] (default task-4)         userrole2_.created_at as created_2_14_2_,
+2018-04-24 23:40:10,471 INFO  [stdout] (default task-4)         userrole2_.updated_at as updated_3_14_2_,
+2018-04-24 23:40:10,471 INFO  [stdout] (default task-4)         userrole2_.description as descript4_14_2_ 
+2018-04-24 23:40:10,471 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:10,471 INFO  [stdout] (default task-4)         requirements_exam_category exams0_ 
+2018-04-24 23:40:10,472 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:10,472 INFO  [stdout] (default task-4)         exam_category examcatego1_ 
+2018-04-24 23:40:10,472 INFO  [stdout] (default task-4)             on exams0_.exam_category_id=examcatego1_.id 
+2018-04-24 23:40:10,472 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:10,472 INFO  [stdout] (default task-4)         users_roles userrole2_ 
+2018-04-24 23:40:10,472 INFO  [stdout] (default task-4)             on examcatego1_.role_id=userrole2_.id 
+2018-04-24 23:40:10,473 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:10,473 INFO  [stdout] (default task-4)         exams0_.requirement_id=?
+2018-04-24 23:40:10,475 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:10,475 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:10,475 INFO  [stdout] (default task-4)         exams0_.requirement_id as requirem1_11_0_,
+2018-04-24 23:40:10,475 INFO  [stdout] (default task-4)         exams0_.exam_category_id as exam_cat2_11_0_,
+2018-04-24 23:40:10,475 INFO  [stdout] (default task-4)         examcatego1_.id as id1_4_1_,
+2018-04-24 23:40:10,475 INFO  [stdout] (default task-4)         examcatego1_.created_at as created_2_4_1_,
+2018-04-24 23:40:10,476 INFO  [stdout] (default task-4)         examcatego1_.updated_at as updated_3_4_1_,
+2018-04-24 23:40:10,476 INFO  [stdout] (default task-4)         examcatego1_.description as descript4_4_1_,
+2018-04-24 23:40:10,476 INFO  [stdout] (default task-4)         examcatego1_.role_id as role_id5_4_1_,
+2018-04-24 23:40:10,476 INFO  [stdout] (default task-4)         userrole2_.id as id1_14_2_,
+2018-04-24 23:40:10,476 INFO  [stdout] (default task-4)         userrole2_.created_at as created_2_14_2_,
+2018-04-24 23:40:10,476 INFO  [stdout] (default task-4)         userrole2_.updated_at as updated_3_14_2_,
+2018-04-24 23:40:10,477 INFO  [stdout] (default task-4)         userrole2_.description as descript4_14_2_ 
+2018-04-24 23:40:10,477 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:10,477 INFO  [stdout] (default task-4)         requirements_exam_category exams0_ 
+2018-04-24 23:40:10,477 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:10,477 INFO  [stdout] (default task-4)         exam_category examcatego1_ 
+2018-04-24 23:40:10,478 INFO  [stdout] (default task-4)             on exams0_.exam_category_id=examcatego1_.id 
+2018-04-24 23:40:10,478 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:10,478 INFO  [stdout] (default task-4)         users_roles userrole2_ 
+2018-04-24 23:40:10,478 INFO  [stdout] (default task-4)             on examcatego1_.role_id=userrole2_.id 
+2018-04-24 23:40:10,478 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:10,479 INFO  [stdout] (default task-4)         exams0_.requirement_id=?
+2018-04-24 23:40:10,678 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:10,679 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:10,679 INFO  [stdout] (default task-4)         user0_.id as id1_13_,
+2018-04-24 23:40:10,679 INFO  [stdout] (default task-4)         user0_.created_at as created_2_13_,
+2018-04-24 23:40:10,680 INFO  [stdout] (default task-4)         user0_.updated_at as updated_3_13_,
+2018-04-24 23:40:10,680 INFO  [stdout] (default task-4)         user0_.CPF as CPF4_13_,
+2018-04-24 23:40:10,680 INFO  [stdout] (default task-4)         user0_.criminal_recors as criminal5_13_,
+2018-04-24 23:40:10,680 INFO  [stdout] (default task-4)         user0_.date_of_birth as date_of_6_13_,
+2018-04-24 23:40:10,681 INFO  [stdout] (default task-4)         user0_.email as email7_13_,
+2018-04-24 23:40:10,681 INFO  [stdout] (default task-4)         user0_.fathers_name as fathers_8_13_,
+2018-04-24 23:40:10,681 INFO  [stdout] (default task-4)         user0_.gender_id as gender_18_13_,
+2018-04-24 23:40:10,681 INFO  [stdout] (default task-4)         user0_.mothers_name as mothers_9_13_,
+2018-04-24 23:40:10,682 INFO  [stdout] (default task-4)         user0_.name as name10_13_,
+2018-04-24 23:40:10,682 INFO  [stdout] (default task-4)         user0_.nationality as nationa11_13_,
+2018-04-24 23:40:10,685 INFO  [stdout] (default task-4)         user0_.naturalness as natural12_13_,
+2018-04-24 23:40:10,685 INFO  [stdout] (default task-4)         user0_.password as passwor13_13_,
+2018-04-24 23:40:10,685 INFO  [stdout] (default task-4)         user0_.responding_process as respond14_13_,
+2018-04-24 23:40:10,686 INFO  [stdout] (default task-4)         user0_.RG as RG15_13_,
+2018-04-24 23:40:10,686 INFO  [stdout] (default task-4)         user0_.RG_issuing_body as RG_issu16_13_,
+2018-04-24 23:40:10,686 INFO  [stdout] (default task-4)         user0_.rg_uf as rg_uf17_13_,
+2018-04-24 23:40:10,686 INFO  [stdout] (default task-4)         user0_.role_id as role_id19_13_ 
+2018-04-24 23:40:10,687 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:10,687 INFO  [stdout] (default task-4)         users user0_ 
+2018-04-24 23:40:10,687 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:10,687 INFO  [stdout] (default task-4)         user0_.CPF=?
+2018-04-24 23:40:10,690 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:10,690 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:10,691 INFO  [stdout] (default task-4)         gender0_.id as id1_6_0_,
+2018-04-24 23:40:10,691 INFO  [stdout] (default task-4)         gender0_.created_at as created_2_6_0_,
+2018-04-24 23:40:10,691 INFO  [stdout] (default task-4)         gender0_.updated_at as updated_3_6_0_,
+2018-04-24 23:40:10,692 INFO  [stdout] (default task-4)         gender0_.abbrev as abbrev4_6_0_,
+2018-04-24 23:40:10,692 INFO  [stdout] (default task-4)         gender0_.description as descript5_6_0_ 
+2018-04-24 23:40:10,692 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:10,692 INFO  [stdout] (default task-4)         genders gender0_ 
+2018-04-24 23:40:10,692 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:10,693 INFO  [stdout] (default task-4)         gender0_.id=?
+2018-04-24 23:40:10,694 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:10,694 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:10,695 INFO  [stdout] (default task-4)         userrole0_.id as id1_14_0_,
+2018-04-24 23:40:10,695 INFO  [stdout] (default task-4)         userrole0_.created_at as created_2_14_0_,
+2018-04-24 23:40:10,695 INFO  [stdout] (default task-4)         userrole0_.updated_at as updated_3_14_0_,
+2018-04-24 23:40:10,695 INFO  [stdout] (default task-4)         userrole0_.description as descript4_14_0_ 
+2018-04-24 23:40:10,695 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:10,696 INFO  [stdout] (default task-4)         users_roles userrole0_ 
+2018-04-24 23:40:10,696 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:10,696 INFO  [stdout] (default task-4)         userrole0_.id=?
+2018-04-24 23:40:10,697 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:10,698 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:10,698 INFO  [stdout] (default task-4)         addresslis0_.user_id as user_id1_1_0_,
+2018-04-24 23:40:10,698 INFO  [stdout] (default task-4)         addresslis0_.address_id as address_2_1_0_,
+2018-04-24 23:40:10,698 INFO  [stdout] (default task-4)         address1_.id as id1_0_1_,
+2018-04-24 23:40:10,698 INFO  [stdout] (default task-4)         address1_.created_at as created_2_0_1_,
+2018-04-24 23:40:10,699 INFO  [stdout] (default task-4)         address1_.updated_at as updated_3_0_1_,
+2018-04-24 23:40:10,699 INFO  [stdout] (default task-4)         address1_.addressNumber as addressN4_0_1_,
+2018-04-24 23:40:10,699 INFO  [stdout] (default task-4)         address1_.cep as cep5_0_1_,
+2018-04-24 23:40:10,699 INFO  [stdout] (default task-4)         address1_.city_id as city_id9_0_1_,
+2018-04-24 23:40:10,699 INFO  [stdout] (default task-4)         address1_.complement as compleme6_0_1_,
+2018-04-24 23:40:10,700 INFO  [stdout] (default task-4)         address1_.neighborhood as neighbor7_0_1_,
+2018-04-24 23:40:10,700 INFO  [stdout] (default task-4)         address1_.street as street8_0_1_,
+2018-04-24 23:40:10,700 INFO  [stdout] (default task-4)         city2_.id as id1_2_2_,
+2018-04-24 23:40:10,700 INFO  [stdout] (default task-4)         city2_.created_at as created_2_2_2_,
+2018-04-24 23:40:10,700 INFO  [stdout] (default task-4)         city2_.updated_at as updated_3_2_2_,
+2018-04-24 23:40:10,701 INFO  [stdout] (default task-4)         city2_.description as descript4_2_2_,
+2018-04-24 23:40:10,701 INFO  [stdout] (default task-4)         city2_.state_id as state_id5_2_2_,
+2018-04-24 23:40:10,701 INFO  [stdout] (default task-4)         state3_.id as id1_12_3_,
+2018-04-24 23:40:10,701 INFO  [stdout] (default task-4)         state3_.created_at as created_2_12_3_,
+2018-04-24 23:40:10,701 INFO  [stdout] (default task-4)         state3_.updated_at as updated_3_12_3_,
+2018-04-24 23:40:10,702 INFO  [stdout] (default task-4)         state3_.Abbrev as Abbrev4_12_3_,
+2018-04-24 23:40:10,702 INFO  [stdout] (default task-4)         state3_.country_id as country_6_12_3_,
+2018-04-24 23:40:10,702 INFO  [stdout] (default task-4)         state3_.description as descript5_12_3_ 
+2018-04-24 23:40:10,702 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:10,702 INFO  [stdout] (default task-4)         address_user addresslis0_ 
+2018-04-24 23:40:10,703 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:10,703 INFO  [stdout] (default task-4)         address address1_ 
+2018-04-24 23:40:10,703 INFO  [stdout] (default task-4)             on addresslis0_.address_id=address1_.id 
+2018-04-24 23:40:10,703 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:10,703 INFO  [stdout] (default task-4)         cities city2_ 
+2018-04-24 23:40:10,704 INFO  [stdout] (default task-4)             on address1_.city_id=city2_.id 
+2018-04-24 23:40:10,704 INFO  [stdout] (default task-4)     left outer join
+2018-04-24 23:40:10,704 INFO  [stdout] (default task-4)         states state3_ 
+2018-04-24 23:40:10,704 INFO  [stdout] (default task-4)             on city2_.state_id=state3_.id 
+2018-04-24 23:40:10,704 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:10,705 INFO  [stdout] (default task-4)         addresslis0_.user_id=?
+2018-04-24 23:40:10,706 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:10,707 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:10,707 INFO  [stdout] (default task-4)         country0_.id as id1_3_0_,
+2018-04-24 23:40:10,707 INFO  [stdout] (default task-4)         country0_.created_at as created_2_3_0_,
+2018-04-24 23:40:10,707 INFO  [stdout] (default task-4)         country0_.updated_at as updated_3_3_0_,
+2018-04-24 23:40:10,707 INFO  [stdout] (default task-4)         country0_.description as descript4_3_0_ 
+2018-04-24 23:40:10,708 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:10,708 INFO  [stdout] (default task-4)         countries country0_ 
+2018-04-24 23:40:10,708 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:10,708 INFO  [stdout] (default task-4)         country0_.id=?
+2018-04-24 23:40:10,962 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:10,966 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:10,966 INFO  [stdout] (default task-3)         user0_.id as id1_13_0_,
+2018-04-24 23:40:10,966 INFO  [stdout] (default task-3)         user0_.created_at as created_2_13_0_,
+2018-04-24 23:40:10,967 INFO  [stdout] (default task-3)         user0_.updated_at as updated_3_13_0_,
+2018-04-24 23:40:10,967 INFO  [stdout] (default task-3)         user0_.CPF as CPF4_13_0_,
+2018-04-24 23:40:10,967 INFO  [stdout] (default task-3)         user0_.criminal_recors as criminal5_13_0_,
+2018-04-24 23:40:10,967 INFO  [stdout] (default task-3)         user0_.date_of_birth as date_of_6_13_0_,
+2018-04-24 23:40:10,968 INFO  [stdout] (default task-3)         user0_.email as email7_13_0_,
+2018-04-24 23:40:10,970 INFO  [stdout] (default task-3)         user0_.fathers_name as fathers_8_13_0_,
+2018-04-24 23:40:10,971 INFO  [stdout] (default task-3)         user0_.gender_id as gender_18_13_0_,
+2018-04-24 23:40:10,971 INFO  [stdout] (default task-3)         user0_.mothers_name as mothers_9_13_0_,
+2018-04-24 23:40:10,972 INFO  [stdout] (default task-3)         user0_.name as name10_13_0_,
+2018-04-24 23:40:10,972 INFO  [stdout] (default task-3)         user0_.nationality as nationa11_13_0_,
+2018-04-24 23:40:10,972 INFO  [stdout] (default task-3)         user0_.naturalness as natural12_13_0_,
+2018-04-24 23:40:10,972 INFO  [stdout] (default task-3)         user0_.password as passwor13_13_0_,
+2018-04-24 23:40:10,973 INFO  [stdout] (default task-3)         user0_.responding_process as respond14_13_0_,
+2018-04-24 23:40:10,973 INFO  [stdout] (default task-3)         user0_.RG as RG15_13_0_,
+2018-04-24 23:40:10,973 INFO  [stdout] (default task-3)         user0_.RG_issuing_body as RG_issu16_13_0_,
+2018-04-24 23:40:10,974 INFO  [stdout] (default task-3)         user0_.rg_uf as rg_uf17_13_0_,
+2018-04-24 23:40:10,974 INFO  [stdout] (default task-3)         user0_.role_id as role_id19_13_0_,
+2018-04-24 23:40:10,974 INFO  [stdout] (default task-3)         gender1_.id as id1_6_1_,
+2018-04-24 23:40:10,977 INFO  [stdout] (default task-3)         gender1_.created_at as created_2_6_1_,
+2018-04-24 23:40:10,978 INFO  [stdout] (default task-3)         gender1_.updated_at as updated_3_6_1_,
+2018-04-24 23:40:10,978 INFO  [stdout] (default task-3)         gender1_.abbrev as abbrev4_6_1_,
+2018-04-24 23:40:10,978 INFO  [stdout] (default task-3)         gender1_.description as descript5_6_1_,
+2018-04-24 23:40:10,978 INFO  [stdout] (default task-3)         userrole2_.id as id1_14_2_,
+2018-04-24 23:40:10,978 INFO  [stdout] (default task-3)         userrole2_.created_at as created_2_14_2_,
+2018-04-24 23:40:10,979 INFO  [stdout] (default task-3)         userrole2_.updated_at as updated_3_14_2_,
+2018-04-24 23:40:10,979 INFO  [stdout] (default task-3)         userrole2_.description as descript4_14_2_ 
+2018-04-24 23:40:10,979 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:10,979 INFO  [stdout] (default task-3)         users user0_ 
+2018-04-24 23:40:10,980 INFO  [stdout] (default task-3)     inner join
+2018-04-24 23:40:10,980 INFO  [stdout] (default task-3)         genders gender1_ 
+2018-04-24 23:40:10,980 INFO  [stdout] (default task-3)             on user0_.gender_id=gender1_.id 
+2018-04-24 23:40:10,980 INFO  [stdout] (default task-3)     left outer join
+2018-04-24 23:40:10,981 INFO  [stdout] (default task-3)         users_roles userrole2_ 
+2018-04-24 23:40:10,981 INFO  [stdout] (default task-3)             on user0_.role_id=userrole2_.id 
+2018-04-24 23:40:10,981 INFO  [stdout] (default task-3)     where
+2018-04-24 23:40:10,981 INFO  [stdout] (default task-3)         user0_.id=?
+2018-04-24 23:40:10,984 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:10,986 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:10,986 INFO  [stdout] (default task-3)         addresslis0_.user_id as user_id1_1_0_,
+2018-04-24 23:40:10,986 INFO  [stdout] (default task-3)         addresslis0_.address_id as address_2_1_0_,
+2018-04-24 23:40:10,986 INFO  [stdout] (default task-3)         address1_.id as id1_0_1_,
+2018-04-24 23:40:10,987 INFO  [stdout] (default task-3)         address1_.created_at as created_2_0_1_,
+2018-04-24 23:40:10,987 INFO  [stdout] (default task-3)         address1_.updated_at as updated_3_0_1_,
+2018-04-24 23:40:10,987 INFO  [stdout] (default task-3)         address1_.addressNumber as addressN4_0_1_,
+2018-04-24 23:40:10,987 INFO  [stdout] (default task-3)         address1_.cep as cep5_0_1_,
+2018-04-24 23:40:10,988 INFO  [stdout] (default task-3)         address1_.city_id as city_id9_0_1_,
+2018-04-24 23:40:10,988 INFO  [stdout] (default task-3)         address1_.complement as compleme6_0_1_,
+2018-04-24 23:40:10,988 INFO  [stdout] (default task-3)         address1_.neighborhood as neighbor7_0_1_,
+2018-04-24 23:40:10,988 INFO  [stdout] (default task-3)         address1_.street as street8_0_1_,
+2018-04-24 23:40:10,989 INFO  [stdout] (default task-3)         city2_.id as id1_2_2_,
+2018-04-24 23:40:10,989 INFO  [stdout] (default task-3)         city2_.created_at as created_2_2_2_,
+2018-04-24 23:40:10,989 INFO  [stdout] (default task-3)         city2_.updated_at as updated_3_2_2_,
+2018-04-24 23:40:10,989 INFO  [stdout] (default task-3)         city2_.description as descript4_2_2_,
+2018-04-24 23:40:10,990 INFO  [stdout] (default task-3)         city2_.state_id as state_id5_2_2_,
+2018-04-24 23:40:10,990 INFO  [stdout] (default task-3)         state3_.id as id1_12_3_,
+2018-04-24 23:40:10,990 INFO  [stdout] (default task-3)         state3_.created_at as created_2_12_3_,
+2018-04-24 23:40:10,990 INFO  [stdout] (default task-3)         state3_.updated_at as updated_3_12_3_,
+2018-04-24 23:40:10,991 INFO  [stdout] (default task-3)         state3_.Abbrev as Abbrev4_12_3_,
+2018-04-24 23:40:10,991 INFO  [stdout] (default task-3)         state3_.country_id as country_6_12_3_,
+2018-04-24 23:40:10,991 INFO  [stdout] (default task-3)         state3_.description as descript5_12_3_ 
+2018-04-24 23:40:10,991 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:10,992 INFO  [stdout] (default task-3)         address_user addresslis0_ 
+2018-04-24 23:40:10,992 INFO  [stdout] (default task-3)     inner join
+2018-04-24 23:40:10,992 INFO  [stdout] (default task-3)         address address1_ 
+2018-04-24 23:40:10,992 INFO  [stdout] (default task-3)             on addresslis0_.address_id=address1_.id 
+2018-04-24 23:40:10,992 INFO  [stdout] (default task-3)     inner join
+2018-04-24 23:40:10,993 INFO  [stdout] (default task-3)         cities city2_ 
+2018-04-24 23:40:10,993 INFO  [stdout] (default task-3)             on address1_.city_id=city2_.id 
+2018-04-24 23:40:10,993 INFO  [stdout] (default task-3)     left outer join
+2018-04-24 23:40:10,993 INFO  [stdout] (default task-3)         states state3_ 
+2018-04-24 23:40:10,994 INFO  [stdout] (default task-3)             on city2_.state_id=state3_.id 
+2018-04-24 23:40:10,994 INFO  [stdout] (default task-3)     where
+2018-04-24 23:40:10,994 INFO  [stdout] (default task-3)         addresslis0_.user_id=?
+2018-04-24 23:40:11,001 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:11,001 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:11,001 INFO  [stdout] (default task-3)         country0_.id as id1_3_0_,
+2018-04-24 23:40:11,002 INFO  [stdout] (default task-3)         country0_.created_at as created_2_3_0_,
+2018-04-24 23:40:11,002 INFO  [stdout] (default task-3)         country0_.updated_at as updated_3_3_0_,
+2018-04-24 23:40:11,002 INFO  [stdout] (default task-3)         country0_.description as descript4_3_0_ 
+2018-04-24 23:40:11,002 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:11,003 INFO  [stdout] (default task-3)         countries country0_ 
+2018-04-24 23:40:11,003 INFO  [stdout] (default task-3)     where
+2018-04-24 23:40:11,003 INFO  [stdout] (default task-3)         country0_.id=?
+2018-04-24 23:40:11,207 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:11,209 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:11,209 INFO  [stdout] (default task-3)         license0_.id as id1_8_,
+2018-04-24 23:40:11,210 INFO  [stdout] (default task-3)         license0_.created_at as created_2_8_,
+2018-04-24 23:40:11,210 INFO  [stdout] (default task-3)         license0_.updated_at as updated_3_8_,
+2018-04-24 23:40:11,211 INFO  [stdout] (default task-3)         license0_.address_id as address_7_8_,
+2018-04-24 23:40:11,211 INFO  [stdout] (default task-3)         license0_.category_id as category8_8_,
+2018-04-24 23:40:11,212 INFO  [stdout] (default task-3)         license0_.serial_number as serial_n4_8_,
+2018-04-24 23:40:11,212 INFO  [stdout] (default task-3)         license0_.shelf_life as shelf_li5_8_,
+2018-04-24 23:40:11,212 INFO  [stdout] (default task-3)         license0_.status as status6_8_,
+2018-04-24 23:40:11,212 INFO  [stdout] (default task-3)         license0_.user_id as user_id9_8_ 
+2018-04-24 23:40:11,213 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:11,213 INFO  [stdout] (default task-3)         licenses license0_ cross 
+2018-04-24 23:40:11,214 INFO  [stdout] (default task-3)     join
+2018-04-24 23:40:11,214 INFO  [stdout] (default task-3)         users user1_ 
+2018-04-24 23:40:11,214 INFO  [stdout] (default task-3)     where
+2018-04-24 23:40:11,214 INFO  [stdout] (default task-3)         license0_.user_id=user1_.id 
+2018-04-24 23:40:11,215 INFO  [stdout] (default task-3)         and user1_.CPF=?
+2018-04-24 23:40:14,587 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:14,591 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:14,591 INFO  [stdout] (default task-4)         user0_.id as id1_13_,
+2018-04-24 23:40:14,591 INFO  [stdout] (default task-4)         user0_.created_at as created_2_13_,
+2018-04-24 23:40:14,592 INFO  [stdout] (default task-4)         user0_.updated_at as updated_3_13_,
+2018-04-24 23:40:14,592 INFO  [stdout] (default task-4)         user0_.CPF as CPF4_13_,
+2018-04-24 23:40:14,592 INFO  [stdout] (default task-4)         user0_.criminal_recors as criminal5_13_,
+2018-04-24 23:40:14,594 INFO  [stdout] (default task-4)         user0_.date_of_birth as date_of_6_13_,
+2018-04-24 23:40:14,594 INFO  [stdout] (default task-4)         user0_.email as email7_13_,
+2018-04-24 23:40:14,594 INFO  [stdout] (default task-4)         user0_.fathers_name as fathers_8_13_,
+2018-04-24 23:40:14,594 INFO  [stdout] (default task-4)         user0_.gender_id as gender_18_13_,
+2018-04-24 23:40:14,594 INFO  [stdout] (default task-4)         user0_.mothers_name as mothers_9_13_,
+2018-04-24 23:40:14,595 INFO  [stdout] (default task-4)         user0_.name as name10_13_,
+2018-04-24 23:40:14,595 INFO  [stdout] (default task-4)         user0_.nationality as nationa11_13_,
+2018-04-24 23:40:14,595 INFO  [stdout] (default task-4)         user0_.naturalness as natural12_13_,
+2018-04-24 23:40:14,595 INFO  [stdout] (default task-4)         user0_.password as passwor13_13_,
+2018-04-24 23:40:14,595 INFO  [stdout] (default task-4)         user0_.responding_process as respond14_13_,
+2018-04-24 23:40:14,596 INFO  [stdout] (default task-4)         user0_.RG as RG15_13_,
+2018-04-24 23:40:14,596 INFO  [stdout] (default task-4)         user0_.RG_issuing_body as RG_issu16_13_,
+2018-04-24 23:40:14,596 INFO  [stdout] (default task-4)         user0_.rg_uf as rg_uf17_13_,
+2018-04-24 23:40:14,596 INFO  [stdout] (default task-4)         user0_.role_id as role_id19_13_ 
+2018-04-24 23:40:14,596 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:14,597 INFO  [stdout] (default task-4)         users user0_ 
+2018-04-24 23:40:14,597 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:14,597 INFO  [stdout] (default task-4)         user0_.CPF=?
+2018-04-24 23:40:14,600 INFO  [stdout] (default task-1) Hibernate: 
+2018-04-24 23:40:14,600 INFO  [stdout] (default task-1)     select
+2018-04-24 23:40:14,600 INFO  [stdout] (default task-1)         user0_.id as id1_13_0_,
+2018-04-24 23:40:14,600 INFO  [stdout] (default task-1)         user0_.created_at as created_2_13_0_,
+2018-04-24 23:40:14,601 INFO  [stdout] (default task-1)         user0_.updated_at as updated_3_13_0_,
+2018-04-24 23:40:14,601 INFO  [stdout] (default task-1)         user0_.CPF as CPF4_13_0_,
+2018-04-24 23:40:14,601 INFO  [stdout] (default task-1)         user0_.criminal_recors as criminal5_13_0_,
+2018-04-24 23:40:14,601 INFO  [stdout] (default task-1)         user0_.date_of_birth as date_of_6_13_0_,
+2018-04-24 23:40:14,601 INFO  [stdout] (default task-1)         user0_.email as email7_13_0_,
+2018-04-24 23:40:14,601 INFO  [stdout] (default task-1)         user0_.fathers_name as fathers_8_13_0_,
+2018-04-24 23:40:14,602 INFO  [stdout] (default task-1)         user0_.gender_id as gender_18_13_0_,
+2018-04-24 23:40:14,602 INFO  [stdout] (default task-1)         user0_.mothers_name as mothers_9_13_0_,
+2018-04-24 23:40:14,602 INFO  [stdout] (default task-1)         user0_.name as name10_13_0_,
+2018-04-24 23:40:14,602 INFO  [stdout] (default task-1)         user0_.nationality as nationa11_13_0_,
+2018-04-24 23:40:14,602 INFO  [stdout] (default task-1)         user0_.naturalness as natural12_13_0_,
+2018-04-24 23:40:14,602 INFO  [stdout] (default task-1)         user0_.password as passwor13_13_0_,
+2018-04-24 23:40:14,602 INFO  [stdout] (default task-1)         user0_.responding_process as respond14_13_0_,
+2018-04-24 23:40:14,603 INFO  [stdout] (default task-1)         user0_.RG as RG15_13_0_,
+2018-04-24 23:40:14,603 INFO  [stdout] (default task-1)         user0_.RG_issuing_body as RG_issu16_13_0_,
+2018-04-24 23:40:14,603 INFO  [stdout] (default task-1)         user0_.rg_uf as rg_uf17_13_0_,
+2018-04-24 23:40:14,603 INFO  [stdout] (default task-1)         user0_.role_id as role_id19_13_0_,
+2018-04-24 23:40:14,603 INFO  [stdout] (default task-1)         gender1_.id as id1_6_1_,
+2018-04-24 23:40:14,604 INFO  [stdout] (default task-1)         gender1_.created_at as created_2_6_1_,
+2018-04-24 23:40:14,604 INFO  [stdout] (default task-1)         gender1_.updated_at as updated_3_6_1_,
+2018-04-24 23:40:14,604 INFO  [stdout] (default task-1)         gender1_.abbrev as abbrev4_6_1_,
+2018-04-24 23:40:14,604 INFO  [stdout] (default task-1)         gender1_.description as descript5_6_1_,
+2018-04-24 23:40:14,604 INFO  [stdout] (default task-1)         userrole2_.id as id1_14_2_,
+2018-04-24 23:40:14,605 INFO  [stdout] (default task-1)         userrole2_.created_at as created_2_14_2_,
+2018-04-24 23:40:14,605 INFO  [stdout] (default task-1)         userrole2_.updated_at as updated_3_14_2_,
+2018-04-24 23:40:14,609 INFO  [stdout] (default task-1)         userrole2_.description as descript4_14_2_ 
+2018-04-24 23:40:14,610 INFO  [stdout] (default task-1)     from
+2018-04-24 23:40:14,610 INFO  [stdout] (default task-1)         users user0_ 
+2018-04-24 23:40:14,610 INFO  [stdout] (default task-1)     inner join
+2018-04-24 23:40:14,610 INFO  [stdout] (default task-1)         genders gender1_ 
+2018-04-24 23:40:14,610 INFO  [stdout] (default task-1)             on user0_.gender_id=gender1_.id 
+2018-04-24 23:40:14,610 INFO  [stdout] (default task-1)     left outer join
+2018-04-24 23:40:14,611 INFO  [stdout] (default task-1)         users_roles userrole2_ 
+2018-04-24 23:40:14,611 INFO  [stdout] (default task-1)             on user0_.role_id=userrole2_.id 
+2018-04-24 23:40:14,611 INFO  [stdout] (default task-1)     where
+2018-04-24 23:40:14,611 INFO  [stdout] (default task-1)         user0_.id=?
+2018-04-24 23:40:14,620 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:14,620 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:14,620 INFO  [stdout] (default task-3)         licensecat0_.id as id1_9_,
+2018-04-24 23:40:14,620 INFO  [stdout] (default task-3)         licensecat0_.created_at as created_2_9_,
+2018-04-24 23:40:14,621 INFO  [stdout] (default task-3)         licensecat0_.updated_at as updated_3_9_,
+2018-04-24 23:40:14,621 INFO  [stdout] (default task-3)         licensecat0_.description as descript4_9_,
+2018-04-24 23:40:14,621 INFO  [stdout] (default task-3)         licensecat0_.requirement_id as requirem6_9_,
+2018-04-24 23:40:14,621 INFO  [stdout] (default task-3)         licensecat0_.years_to_expirate as years_to5_9_ 
+2018-04-24 23:40:14,622 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:14,622 INFO  [stdout] (default task-3)         licenses_categories licensecat0_ limit ?
+2018-04-24 23:40:14,623 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:14,623 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:14,623 INFO  [stdout] (default task-4)         gender0_.id as id1_6_0_,
+2018-04-24 23:40:14,623 INFO  [stdout] (default task-4)         gender0_.created_at as created_2_6_0_,
+2018-04-24 23:40:14,623 INFO  [stdout] (default task-4)         gender0_.updated_at as updated_3_6_0_,
+2018-04-24 23:40:14,623 INFO  [stdout] (default task-4)         gender0_.abbrev as abbrev4_6_0_,
+2018-04-24 23:40:14,624 INFO  [stdout] (default task-4)         gender0_.description as descript5_6_0_ 
+2018-04-24 23:40:14,624 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:14,624 INFO  [stdout] (default task-4)         genders gender0_ 
+2018-04-24 23:40:14,624 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:14,624 INFO  [stdout] (default task-4)         gender0_.id=?
+2018-04-24 23:40:14,626 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:14,627 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:14,627 INFO  [stdout] (default task-4)         userrole0_.id as id1_14_0_,
+2018-04-24 23:40:14,628 INFO  [stdout] (default task-4)         userrole0_.created_at as created_2_14_0_,
+2018-04-24 23:40:14,628 INFO  [stdout] (default task-4)         userrole0_.updated_at as updated_3_14_0_,
+2018-04-24 23:40:14,628 INFO  [stdout] (default task-4)         userrole0_.description as descript4_14_0_ 
+2018-04-24 23:40:14,628 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:14,628 INFO  [stdout] (default task-4)         users_roles userrole0_ 
+2018-04-24 23:40:14,629 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:14,629 INFO  [stdout] (default task-4)         userrole0_.id=?
+2018-04-24 23:40:14,629 INFO  [stdout] (default task-1) Hibernate: 
+2018-04-24 23:40:14,629 INFO  [stdout] (default task-1)     select
+2018-04-24 23:40:14,629 INFO  [stdout] (default task-1)         addresslis0_.user_id as user_id1_1_0_,
+2018-04-24 23:40:14,630 INFO  [stdout] (default task-1)         addresslis0_.address_id as address_2_1_0_,
+2018-04-24 23:40:14,630 INFO  [stdout] (default task-1)         address1_.id as id1_0_1_,
+2018-04-24 23:40:14,630 INFO  [stdout] (default task-1)         address1_.created_at as created_2_0_1_,
+2018-04-24 23:40:14,630 INFO  [stdout] (default task-1)         address1_.updated_at as updated_3_0_1_,
+2018-04-24 23:40:14,630 INFO  [stdout] (default task-1)         address1_.addressNumber as addressN4_0_1_,
+2018-04-24 23:40:14,630 INFO  [stdout] (default task-1)         address1_.cep as cep5_0_1_,
+2018-04-24 23:40:14,631 INFO  [stdout] (default task-1)         address1_.city_id as city_id9_0_1_,
+2018-04-24 23:40:14,631 INFO  [stdout] (default task-1)         address1_.complement as compleme6_0_1_,
+2018-04-24 23:40:14,631 INFO  [stdout] (default task-1)         address1_.neighborhood as neighbor7_0_1_,
+2018-04-24 23:40:14,631 INFO  [stdout] (default task-1)         address1_.street as street8_0_1_,
+2018-04-24 23:40:14,632 INFO  [stdout] (default task-1)         city2_.id as id1_2_2_,
+2018-04-24 23:40:14,632 INFO  [stdout] (default task-1)         city2_.created_at as created_2_2_2_,
+2018-04-24 23:40:14,632 INFO  [stdout] (default task-1)         city2_.updated_at as updated_3_2_2_,
+2018-04-24 23:40:14,632 INFO  [stdout] (default task-1)         city2_.description as descript4_2_2_,
+2018-04-24 23:40:14,633 INFO  [stdout] (default task-1)         city2_.state_id as state_id5_2_2_,
+2018-04-24 23:40:14,633 INFO  [stdout] (default task-1)         state3_.id as id1_12_3_,
+2018-04-24 23:40:14,633 INFO  [stdout] (default task-1)         state3_.created_at as created_2_12_3_,
+2018-04-24 23:40:14,633 INFO  [stdout] (default task-1)         state3_.updated_at as updated_3_12_3_,
+2018-04-24 23:40:14,634 INFO  [stdout] (default task-1)         state3_.Abbrev as Abbrev4_12_3_,
+2018-04-24 23:40:14,634 INFO  [stdout] (default task-1)         state3_.country_id as country_6_12_3_,
+2018-04-24 23:40:14,634 INFO  [stdout] (default task-1)         state3_.description as descript5_12_3_ 
+2018-04-24 23:40:14,634 INFO  [stdout] (default task-1)     from
+2018-04-24 23:40:14,635 INFO  [stdout] (default task-1)         address_user addresslis0_ 
+2018-04-24 23:40:14,635 INFO  [stdout] (default task-1)     inner join
+2018-04-24 23:40:14,635 INFO  [stdout] (default task-1)         address address1_ 
+2018-04-24 23:40:14,635 INFO  [stdout] (default task-1)             on addresslis0_.address_id=address1_.id 
+2018-04-24 23:40:14,635 INFO  [stdout] (default task-1)     inner join
+2018-04-24 23:40:14,636 INFO  [stdout] (default task-1)         cities city2_ 
+2018-04-24 23:40:14,636 INFO  [stdout] (default task-1)             on address1_.city_id=city2_.id 
+2018-04-24 23:40:14,636 INFO  [stdout] (default task-1)     left outer join
+2018-04-24 23:40:14,636 INFO  [stdout] (default task-1)         states state3_ 
+2018-04-24 23:40:14,636 INFO  [stdout] (default task-1)             on city2_.state_id=state3_.id 
+2018-04-24 23:40:14,637 INFO  [stdout] (default task-1)     where
+2018-04-24 23:40:14,637 INFO  [stdout] (default task-1)         addresslis0_.user_id=?
+2018-04-24 23:40:14,637 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:14,637 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:14,637 INFO  [stdout] (default task-4)         addresslis0_.user_id as user_id1_1_0_,
+2018-04-24 23:40:14,638 INFO  [stdout] (default task-4)         addresslis0_.address_id as address_2_1_0_,
+2018-04-24 23:40:14,638 INFO  [stdout] (default task-4)         address1_.id as id1_0_1_,
+2018-04-24 23:40:14,638 INFO  [stdout] (default task-4)         address1_.created_at as created_2_0_1_,
+2018-04-24 23:40:14,638 INFO  [stdout] (default task-4)         address1_.updated_at as updated_3_0_1_,
+2018-04-24 23:40:14,638 INFO  [stdout] (default task-4)         address1_.addressNumber as addressN4_0_1_,
+2018-04-24 23:40:14,639 INFO  [stdout] (default task-4)         address1_.cep as cep5_0_1_,
+2018-04-24 23:40:14,639 INFO  [stdout] (default task-4)         address1_.city_id as city_id9_0_1_,
+2018-04-24 23:40:14,639 INFO  [stdout] (default task-4)         address1_.complement as compleme6_0_1_,
+2018-04-24 23:40:14,639 INFO  [stdout] (default task-4)         address1_.neighborhood as neighbor7_0_1_,
+2018-04-24 23:40:14,640 INFO  [stdout] (default task-4)         address1_.street as street8_0_1_,
+2018-04-24 23:40:14,640 INFO  [stdout] (default task-4)         city2_.id as id1_2_2_,
+2018-04-24 23:40:14,641 INFO  [stdout] (default task-4)         city2_.created_at as created_2_2_2_,
+2018-04-24 23:40:14,642 INFO  [stdout] (default task-4)         city2_.updated_at as updated_3_2_2_,
+2018-04-24 23:40:14,642 INFO  [stdout] (default task-4)         city2_.description as descript4_2_2_,
+2018-04-24 23:40:14,642 INFO  [stdout] (default task-4)         city2_.state_id as state_id5_2_2_,
+2018-04-24 23:40:14,643 INFO  [stdout] (default task-4)         state3_.id as id1_12_3_,
+2018-04-24 23:40:14,643 INFO  [stdout] (default task-4)         state3_.created_at as created_2_12_3_,
+2018-04-24 23:40:14,643 INFO  [stdout] (default task-4)         state3_.updated_at as updated_3_12_3_,
+2018-04-24 23:40:14,643 INFO  [stdout] (default task-4)         state3_.Abbrev as Abbrev4_12_3_,
+2018-04-24 23:40:14,643 INFO  [stdout] (default task-4)         state3_.country_id as country_6_12_3_,
+2018-04-24 23:40:14,643 INFO  [stdout] (default task-4)         state3_.description as descript5_12_3_ 
+2018-04-24 23:40:14,643 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:14,644 INFO  [stdout] (default task-4)         address_user addresslis0_ 
+2018-04-24 23:40:14,644 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:14,644 INFO  [stdout] (default task-4)         address address1_ 
+2018-04-24 23:40:14,644 INFO  [stdout] (default task-4)             on addresslis0_.address_id=address1_.id 
+2018-04-24 23:40:14,644 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:14,644 INFO  [stdout] (default task-4)         cities city2_ 
+2018-04-24 23:40:14,645 INFO  [stdout] (default task-4)             on address1_.city_id=city2_.id 
+2018-04-24 23:40:14,645 INFO  [stdout] (default task-4)     left outer join
+2018-04-24 23:40:14,645 INFO  [stdout] (default task-4)         states state3_ 
+2018-04-24 23:40:14,645 INFO  [stdout] (default task-4)             on city2_.state_id=state3_.id 
+2018-04-24 23:40:14,645 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:14,645 INFO  [stdout] (default task-4)         addresslis0_.user_id=?
+2018-04-24 23:40:14,646 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:14,646 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:14,646 INFO  [stdout] (default task-3)         requiremen0_.id as id1_10_0_,
+2018-04-24 23:40:14,646 INFO  [stdout] (default task-3)         requiremen0_.created_at as created_2_10_0_,
+2018-04-24 23:40:14,646 INFO  [stdout] (default task-3)         requiremen0_.updated_at as updated_3_10_0_,
+2018-04-24 23:40:14,646 INFO  [stdout] (default task-3)         requiremen0_.criminal_records as criminal4_10_0_,
+2018-04-24 23:40:14,647 INFO  [stdout] (default task-3)         requiremen0_.minimal_age as minimal_5_10_0_,
+2018-04-24 23:40:14,647 INFO  [stdout] (default task-3)         requiremen0_.responding_process as respondi6_10_0_ 
+2018-04-24 23:40:14,647 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:14,647 INFO  [stdout] (default task-3)         requirements requiremen0_ 
+2018-04-24 23:40:14,647 INFO  [stdout] (default task-3)     where
+2018-04-24 23:40:14,647 INFO  [stdout] (default task-3)         requiremen0_.id=?
+2018-04-24 23:40:14,649 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:14,649 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:14,649 INFO  [stdout] (default task-3)         requiremen0_.id as id1_10_0_,
+2018-04-24 23:40:14,649 INFO  [stdout] (default task-3)         requiremen0_.created_at as created_2_10_0_,
+2018-04-24 23:40:14,649 INFO  [stdout] (default task-3)         requiremen0_.updated_at as updated_3_10_0_,
+2018-04-24 23:40:14,650 INFO  [stdout] (default task-3)         requiremen0_.criminal_records as criminal4_10_0_,
+2018-04-24 23:40:14,650 INFO  [stdout] (default task-3)         requiremen0_.minimal_age as minimal_5_10_0_,
+2018-04-24 23:40:14,650 INFO  [stdout] (default task-3)         requiremen0_.responding_process as respondi6_10_0_ 
+2018-04-24 23:40:14,650 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:14,650 INFO  [stdout] (default task-3)         requirements requiremen0_ 
+2018-04-24 23:40:14,650 INFO  [stdout] (default task-3)     where
+2018-04-24 23:40:14,650 INFO  [stdout] (default task-3)         requiremen0_.id=?
+2018-04-24 23:40:14,652 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:14,652 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:14,652 INFO  [stdout] (default task-3)         exams0_.requirement_id as requirem1_11_0_,
+2018-04-24 23:40:14,652 INFO  [stdout] (default task-3)         exams0_.exam_category_id as exam_cat2_11_0_,
+2018-04-24 23:40:14,652 INFO  [stdout] (default task-3)         examcatego1_.id as id1_4_1_,
+2018-04-24 23:40:14,653 INFO  [stdout] (default task-3)         examcatego1_.created_at as created_2_4_1_,
+2018-04-24 23:40:14,654 INFO  [stdout] (default task-3)         examcatego1_.updated_at as updated_3_4_1_,
+2018-04-24 23:40:14,654 INFO  [stdout] (default task-3)         examcatego1_.description as descript4_4_1_,
+2018-04-24 23:40:14,655 INFO  [stdout] (default task-3)         examcatego1_.role_id as role_id5_4_1_,
+2018-04-24 23:40:14,655 INFO  [stdout] (default task-3)         userrole2_.id as id1_14_2_,
+2018-04-24 23:40:14,655 INFO  [stdout] (default task-3)         userrole2_.created_at as created_2_14_2_,
+2018-04-24 23:40:14,655 INFO  [stdout] (default task-3)         userrole2_.updated_at as updated_3_14_2_,
+2018-04-24 23:40:14,656 INFO  [stdout] (default task-3)         userrole2_.description as descript4_14_2_ 
+2018-04-24 23:40:14,656 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:14,656 INFO  [stdout] (default task-3)         requirements_exam_category exams0_ 
+2018-04-24 23:40:14,656 INFO  [stdout] (default task-3)     inner join
+2018-04-24 23:40:14,656 INFO  [stdout] (default task-3)         exam_category examcatego1_ 
+2018-04-24 23:40:14,657 INFO  [stdout] (default task-3)             on exams0_.exam_category_id=examcatego1_.id 
+2018-04-24 23:40:14,658 INFO  [stdout] (default task-3)     inner join
+2018-04-24 23:40:14,658 INFO  [stdout] (default task-3)         users_roles userrole2_ 
+2018-04-24 23:40:14,658 INFO  [stdout] (default task-3)             on examcatego1_.role_id=userrole2_.id 
+2018-04-24 23:40:14,658 INFO  [stdout] (default task-3)     where
+2018-04-24 23:40:14,659 INFO  [stdout] (default task-3)         exams0_.requirement_id=?
+2018-04-24 23:40:14,659 INFO  [stdout] (default task-1) Hibernate: 
+2018-04-24 23:40:14,659 INFO  [stdout] (default task-1)     select
+2018-04-24 23:40:14,659 INFO  [stdout] (default task-1)         country0_.id as id1_3_0_,
+2018-04-24 23:40:14,659 INFO  [stdout] (default task-1)         country0_.created_at as created_2_3_0_,
+2018-04-24 23:40:14,660 INFO  [stdout] (default task-1)         country0_.updated_at as updated_3_3_0_,
+2018-04-24 23:40:14,660 INFO  [stdout] (default task-1)         country0_.description as descript4_3_0_ 
+2018-04-24 23:40:14,660 INFO  [stdout] (default task-1)     from
+2018-04-24 23:40:14,660 INFO  [stdout] (default task-1)         countries country0_ 
+2018-04-24 23:40:14,660 INFO  [stdout] (default task-1)     where
+2018-04-24 23:40:14,660 INFO  [stdout] (default task-1)         country0_.id=?
+2018-04-24 23:40:14,663 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:14,663 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:14,663 INFO  [stdout] (default task-4)         country0_.id as id1_3_0_,
+2018-04-24 23:40:14,664 INFO  [stdout] (default task-4)         country0_.created_at as created_2_3_0_,
+2018-04-24 23:40:14,665 INFO  [stdout] (default task-4)         country0_.updated_at as updated_3_3_0_,
+2018-04-24 23:40:14,666 INFO  [stdout] (default task-4)         country0_.description as descript4_3_0_ 
+2018-04-24 23:40:14,666 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:14,666 INFO  [stdout] (default task-4)         countries country0_ 
+2018-04-24 23:40:14,666 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:14,667 INFO  [stdout] (default task-4)         country0_.id=?
+2018-04-24 23:40:14,670 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:14,670 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:14,671 INFO  [stdout] (default task-3)         exams0_.requirement_id as requirem1_11_0_,
+2018-04-24 23:40:14,671 INFO  [stdout] (default task-3)         exams0_.exam_category_id as exam_cat2_11_0_,
+2018-04-24 23:40:14,671 INFO  [stdout] (default task-3)         examcatego1_.id as id1_4_1_,
+2018-04-24 23:40:14,671 INFO  [stdout] (default task-3)         examcatego1_.created_at as created_2_4_1_,
+2018-04-24 23:40:14,671 INFO  [stdout] (default task-3)         examcatego1_.updated_at as updated_3_4_1_,
+2018-04-24 23:40:14,672 INFO  [stdout] (default task-3)         examcatego1_.description as descript4_4_1_,
+2018-04-24 23:40:14,672 INFO  [stdout] (default task-3)         examcatego1_.role_id as role_id5_4_1_,
+2018-04-24 23:40:14,672 INFO  [stdout] (default task-3)         userrole2_.id as id1_14_2_,
+2018-04-24 23:40:14,672 INFO  [stdout] (default task-3)         userrole2_.created_at as created_2_14_2_,
+2018-04-24 23:40:14,672 INFO  [stdout] (default task-3)         userrole2_.updated_at as updated_3_14_2_,
+2018-04-24 23:40:14,672 INFO  [stdout] (default task-3)         userrole2_.description as descript4_14_2_ 
+2018-04-24 23:40:14,673 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:14,674 INFO  [stdout] (default task-3)         requirements_exam_category exams0_ 
+2018-04-24 23:40:14,674 INFO  [stdout] (default task-3)     inner join
+2018-04-24 23:40:14,674 INFO  [stdout] (default task-3)         exam_category examcatego1_ 
+2018-04-24 23:40:14,674 INFO  [stdout] (default task-3)             on exams0_.exam_category_id=examcatego1_.id 
+2018-04-24 23:40:14,674 INFO  [stdout] (default task-3)     inner join
+2018-04-24 23:40:14,674 INFO  [stdout] (default task-3)         users_roles userrole2_ 
+2018-04-24 23:40:14,675 INFO  [stdout] (default task-3)             on examcatego1_.role_id=userrole2_.id 
+2018-04-24 23:40:14,675 INFO  [stdout] (default task-3)     where
+2018-04-24 23:40:14,675 INFO  [stdout] (default task-3)         exams0_.requirement_id=?
+2018-04-24 23:40:15,968 INFO  [stdout] (default task-1) Hibernate: 
+2018-04-24 23:40:15,969 INFO  [stdout] (default task-1)     select
+2018-04-24 23:40:15,970 INFO  [stdout] (default task-1)         user0_.id as id1_13_0_,
+2018-04-24 23:40:15,970 INFO  [stdout] (default task-1)         user0_.created_at as created_2_13_0_,
+2018-04-24 23:40:15,970 INFO  [stdout] (default task-1)         user0_.updated_at as updated_3_13_0_,
+2018-04-24 23:40:15,971 INFO  [stdout] (default task-1)         user0_.CPF as CPF4_13_0_,
+2018-04-24 23:40:15,971 INFO  [stdout] (default task-1)         user0_.criminal_recors as criminal5_13_0_,
+2018-04-24 23:40:15,972 INFO  [stdout] (default task-1)         user0_.date_of_birth as date_of_6_13_0_,
+2018-04-24 23:40:15,973 INFO  [stdout] (default task-1)         user0_.email as email7_13_0_,
+2018-04-24 23:40:15,973 INFO  [stdout] (default task-1)         user0_.fathers_name as fathers_8_13_0_,
+2018-04-24 23:40:15,974 INFO  [stdout] (default task-1)         user0_.gender_id as gender_18_13_0_,
+2018-04-24 23:40:15,974 INFO  [stdout] (default task-1)         user0_.mothers_name as mothers_9_13_0_,
+2018-04-24 23:40:15,975 INFO  [stdout] (default task-1)         user0_.name as name10_13_0_,
+2018-04-24 23:40:15,975 INFO  [stdout] (default task-1)         user0_.nationality as nationa11_13_0_,
+2018-04-24 23:40:15,976 INFO  [stdout] (default task-1)         user0_.naturalness as natural12_13_0_,
+2018-04-24 23:40:15,976 INFO  [stdout] (default task-1)         user0_.password as passwor13_13_0_,
+2018-04-24 23:40:15,977 INFO  [stdout] (default task-1)         user0_.responding_process as respond14_13_0_,
+2018-04-24 23:40:15,977 INFO  [stdout] (default task-1)         user0_.RG as RG15_13_0_,
+2018-04-24 23:40:15,978 INFO  [stdout] (default task-1)         user0_.RG_issuing_body as RG_issu16_13_0_,
+2018-04-24 23:40:15,979 INFO  [stdout] (default task-1)         user0_.rg_uf as rg_uf17_13_0_,
+2018-04-24 23:40:15,979 INFO  [stdout] (default task-1)         user0_.role_id as role_id19_13_0_,
+2018-04-24 23:40:15,980 INFO  [stdout] (default task-1)         gender1_.id as id1_6_1_,
+2018-04-24 23:40:15,980 INFO  [stdout] (default task-1)         gender1_.created_at as created_2_6_1_,
+2018-04-24 23:40:15,981 INFO  [stdout] (default task-1)         gender1_.updated_at as updated_3_6_1_,
+2018-04-24 23:40:15,981 INFO  [stdout] (default task-1)         gender1_.abbrev as abbrev4_6_1_,
+2018-04-24 23:40:15,981 INFO  [stdout] (default task-1)         gender1_.description as descript5_6_1_,
+2018-04-24 23:40:15,982 INFO  [stdout] (default task-1)         userrole2_.id as id1_14_2_,
+2018-04-24 23:40:15,982 INFO  [stdout] (default task-1)         userrole2_.created_at as created_2_14_2_,
+2018-04-24 23:40:15,982 INFO  [stdout] (default task-1)         userrole2_.updated_at as updated_3_14_2_,
+2018-04-24 23:40:15,982 INFO  [stdout] (default task-1)         userrole2_.description as descript4_14_2_ 
+2018-04-24 23:40:15,984 INFO  [stdout] (default task-1)     from
+2018-04-24 23:40:15,984 INFO  [stdout] (default task-1)         users user0_ 
+2018-04-24 23:40:15,984 INFO  [stdout] (default task-1)     inner join
+2018-04-24 23:40:15,984 INFO  [stdout] (default task-1)         genders gender1_ 
+2018-04-24 23:40:15,985 INFO  [stdout] (default task-1)             on user0_.gender_id=gender1_.id 
+2018-04-24 23:40:15,985 INFO  [stdout] (default task-1)     left outer join
+2018-04-24 23:40:15,985 INFO  [stdout] (default task-1)         users_roles userrole2_ 
+2018-04-24 23:40:15,985 INFO  [stdout] (default task-1)             on user0_.role_id=userrole2_.id 
+2018-04-24 23:40:15,986 INFO  [stdout] (default task-1)     where
+2018-04-24 23:40:15,988 INFO  [stdout] (default task-1)         user0_.id=?
+2018-04-24 23:40:15,988 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:15,988 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:15,989 INFO  [stdout] (default task-3)         licensecat0_.id as id1_9_,
+2018-04-24 23:40:15,989 INFO  [stdout] (default task-3)         licensecat0_.created_at as created_2_9_,
+2018-04-24 23:40:15,989 INFO  [stdout] (default task-3)         licensecat0_.updated_at as updated_3_9_,
+2018-04-24 23:40:15,990 INFO  [stdout] (default task-3)         licensecat0_.description as descript4_9_,
+2018-04-24 23:40:15,990 INFO  [stdout] (default task-3)         licensecat0_.requirement_id as requirem6_9_,
+2018-04-24 23:40:15,990 INFO  [stdout] (default task-3)         licensecat0_.years_to_expirate as years_to5_9_ 
+2018-04-24 23:40:15,990 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:15,991 INFO  [stdout] (default task-3)         licenses_categories licensecat0_ limit ?
+2018-04-24 23:40:15,991 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:15,991 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:15,991 INFO  [stdout] (default task-4)         user0_.id as id1_13_,
+2018-04-24 23:40:15,992 INFO  [stdout] (default task-4)         user0_.created_at as created_2_13_,
+2018-04-24 23:40:15,992 INFO  [stdout] (default task-4)         user0_.updated_at as updated_3_13_,
+2018-04-24 23:40:15,992 INFO  [stdout] (default task-4)         user0_.CPF as CPF4_13_,
+2018-04-24 23:40:15,992 INFO  [stdout] (default task-4)         user0_.criminal_recors as criminal5_13_,
+2018-04-24 23:40:15,993 INFO  [stdout] (default task-4)         user0_.date_of_birth as date_of_6_13_,
+2018-04-24 23:40:15,993 INFO  [stdout] (default task-4)         user0_.email as email7_13_,
+2018-04-24 23:40:15,993 INFO  [stdout] (default task-4)         user0_.fathers_name as fathers_8_13_,
+2018-04-24 23:40:15,993 INFO  [stdout] (default task-4)         user0_.gender_id as gender_18_13_,
+2018-04-24 23:40:15,994 INFO  [stdout] (default task-4)         user0_.mothers_name as mothers_9_13_,
+2018-04-24 23:40:15,994 INFO  [stdout] (default task-4)         user0_.name as name10_13_,
+2018-04-24 23:40:15,994 INFO  [stdout] (default task-4)         user0_.nationality as nationa11_13_,
+2018-04-24 23:40:15,994 INFO  [stdout] (default task-4)         user0_.naturalness as natural12_13_,
+2018-04-24 23:40:15,995 INFO  [stdout] (default task-4)         user0_.password as passwor13_13_,
+2018-04-24 23:40:15,995 INFO  [stdout] (default task-4)         user0_.responding_process as respond14_13_,
+2018-04-24 23:40:15,995 INFO  [stdout] (default task-4)         user0_.RG as RG15_13_,
+2018-04-24 23:40:15,995 INFO  [stdout] (default task-4)         user0_.RG_issuing_body as RG_issu16_13_,
+2018-04-24 23:40:15,996 INFO  [stdout] (default task-4)         user0_.rg_uf as rg_uf17_13_,
+2018-04-24 23:40:15,996 INFO  [stdout] (default task-4)         user0_.role_id as role_id19_13_ 
+2018-04-24 23:40:15,996 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:15,996 INFO  [stdout] (default task-4)         users user0_ 
+2018-04-24 23:40:15,996 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:15,997 INFO  [stdout] (default task-4)         user0_.CPF=?
+2018-04-24 23:40:16,000 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:16,003 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:16,003 INFO  [stdout] (default task-3)         requiremen0_.id as id1_10_0_,
+2018-04-24 23:40:16,003 INFO  [stdout] (default task-3)         requiremen0_.created_at as created_2_10_0_,
+2018-04-24 23:40:16,004 INFO  [stdout] (default task-3)         requiremen0_.updated_at as updated_3_10_0_,
+2018-04-24 23:40:16,004 INFO  [stdout] (default task-3)         requiremen0_.criminal_records as criminal4_10_0_,
+2018-04-24 23:40:16,004 INFO  [stdout] (default task-3)         requiremen0_.minimal_age as minimal_5_10_0_,
+2018-04-24 23:40:16,004 INFO  [stdout] (default task-3)         requiremen0_.responding_process as respondi6_10_0_ 
+2018-04-24 23:40:16,005 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:16,005 INFO  [stdout] (default task-3)         requirements requiremen0_ 
+2018-04-24 23:40:16,005 INFO  [stdout] (default task-3)     where
+2018-04-24 23:40:16,006 INFO  [stdout] (default task-3)         requiremen0_.id=?
+2018-04-24 23:40:16,006 INFO  [stdout] (default task-1) Hibernate: 
+2018-04-24 23:40:16,006 INFO  [stdout] (default task-1)     select
+2018-04-24 23:40:16,006 INFO  [stdout] (default task-1)         addresslis0_.user_id as user_id1_1_0_,
+2018-04-24 23:40:16,007 INFO  [stdout] (default task-1)         addresslis0_.address_id as address_2_1_0_,
+2018-04-24 23:40:16,008 INFO  [stdout] (default task-1)         address1_.id as id1_0_1_,
+2018-04-24 23:40:16,008 INFO  [stdout] (default task-1)         address1_.created_at as created_2_0_1_,
+2018-04-24 23:40:16,008 INFO  [stdout] (default task-1)         address1_.updated_at as updated_3_0_1_,
+2018-04-24 23:40:16,009 INFO  [stdout] (default task-1)         address1_.addressNumber as addressN4_0_1_,
+2018-04-24 23:40:16,009 INFO  [stdout] (default task-1)         address1_.cep as cep5_0_1_,
+2018-04-24 23:40:16,009 INFO  [stdout] (default task-1)         address1_.city_id as city_id9_0_1_,
+2018-04-24 23:40:16,011 INFO  [stdout] (default task-1)         address1_.complement as compleme6_0_1_,
+2018-04-24 23:40:16,011 INFO  [stdout] (default task-1)         address1_.neighborhood as neighbor7_0_1_,
+2018-04-24 23:40:16,011 INFO  [stdout] (default task-1)         address1_.street as street8_0_1_,
+2018-04-24 23:40:16,011 INFO  [stdout] (default task-1)         city2_.id as id1_2_2_,
+2018-04-24 23:40:16,012 INFO  [stdout] (default task-1)         city2_.created_at as created_2_2_2_,
+2018-04-24 23:40:16,012 INFO  [stdout] (default task-1)         city2_.updated_at as updated_3_2_2_,
+2018-04-24 23:40:16,012 INFO  [stdout] (default task-1)         city2_.description as descript4_2_2_,
+2018-04-24 23:40:16,012 INFO  [stdout] (default task-1)         city2_.state_id as state_id5_2_2_,
+2018-04-24 23:40:16,013 INFO  [stdout] (default task-1)         state3_.id as id1_12_3_,
+2018-04-24 23:40:16,013 INFO  [stdout] (default task-1)         state3_.created_at as created_2_12_3_,
+2018-04-24 23:40:16,013 INFO  [stdout] (default task-1)         state3_.updated_at as updated_3_12_3_,
+2018-04-24 23:40:16,013 INFO  [stdout] (default task-1)         state3_.Abbrev as Abbrev4_12_3_,
+2018-04-24 23:40:16,013 INFO  [stdout] (default task-1)         state3_.country_id as country_6_12_3_,
+2018-04-24 23:40:16,013 INFO  [stdout] (default task-1)         state3_.description as descript5_12_3_ 
+2018-04-24 23:40:16,014 INFO  [stdout] (default task-1)     from
+2018-04-24 23:40:16,014 INFO  [stdout] (default task-1)         address_user addresslis0_ 
+2018-04-24 23:40:16,014 INFO  [stdout] (default task-1)     inner join
+2018-04-24 23:40:16,014 INFO  [stdout] (default task-1)         address address1_ 
+2018-04-24 23:40:16,014 INFO  [stdout] (default task-1)             on addresslis0_.address_id=address1_.id 
+2018-04-24 23:40:16,015 INFO  [stdout] (default task-1)     inner join
+2018-04-24 23:40:16,015 INFO  [stdout] (default task-1)         cities city2_ 
+2018-04-24 23:40:16,015 INFO  [stdout] (default task-1)             on address1_.city_id=city2_.id 
+2018-04-24 23:40:16,015 INFO  [stdout] (default task-1)     left outer join
+2018-04-24 23:40:16,015 INFO  [stdout] (default task-1)         states state3_ 
+2018-04-24 23:40:16,015 INFO  [stdout] (default task-1)             on city2_.state_id=state3_.id 
+2018-04-24 23:40:16,016 INFO  [stdout] (default task-1)     where
+2018-04-24 23:40:16,016 INFO  [stdout] (default task-1)         addresslis0_.user_id=?
+2018-04-24 23:40:16,016 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:16,016 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:16,016 INFO  [stdout] (default task-4)         gender0_.id as id1_6_0_,
+2018-04-24 23:40:16,016 INFO  [stdout] (default task-4)         gender0_.created_at as created_2_6_0_,
+2018-04-24 23:40:16,017 INFO  [stdout] (default task-4)         gender0_.updated_at as updated_3_6_0_,
+2018-04-24 23:40:16,017 INFO  [stdout] (default task-4)         gender0_.abbrev as abbrev4_6_0_,
+2018-04-24 23:40:16,017 INFO  [stdout] (default task-4)         gender0_.description as descript5_6_0_ 
+2018-04-24 23:40:16,017 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:16,017 INFO  [stdout] (default task-4)         genders gender0_ 
+2018-04-24 23:40:16,017 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:16,018 INFO  [stdout] (default task-4)         gender0_.id=?
+2018-04-24 23:40:16,019 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:16,019 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:16,019 INFO  [stdout] (default task-4)         userrole0_.id as id1_14_0_,
+2018-04-24 23:40:16,020 INFO  [stdout] (default task-4)         userrole0_.created_at as created_2_14_0_,
+2018-04-24 23:40:16,020 INFO  [stdout] (default task-4)         userrole0_.updated_at as updated_3_14_0_,
+2018-04-24 23:40:16,020 INFO  [stdout] (default task-4)         userrole0_.description as descript4_14_0_ 
+2018-04-24 23:40:16,020 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:16,020 INFO  [stdout] (default task-4)         users_roles userrole0_ 
+2018-04-24 23:40:16,020 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:16,021 INFO  [stdout] (default task-4)         userrole0_.id=?
+2018-04-24 23:40:16,021 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:16,022 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:16,022 INFO  [stdout] (default task-3)         requiremen0_.id as id1_10_0_,
+2018-04-24 23:40:16,022 INFO  [stdout] (default task-3)         requiremen0_.created_at as created_2_10_0_,
+2018-04-24 23:40:16,022 INFO  [stdout] (default task-3)         requiremen0_.updated_at as updated_3_10_0_,
+2018-04-24 23:40:16,022 INFO  [stdout] (default task-3)         requiremen0_.criminal_records as criminal4_10_0_,
+2018-04-24 23:40:16,023 INFO  [stdout] (default task-3)         requiremen0_.minimal_age as minimal_5_10_0_,
+2018-04-24 23:40:16,023 INFO  [stdout] (default task-3)         requiremen0_.responding_process as respondi6_10_0_ 
+2018-04-24 23:40:16,024 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:16,024 INFO  [stdout] (default task-3)         requirements requiremen0_ 
+2018-04-24 23:40:16,025 INFO  [stdout] (default task-3)     where
+2018-04-24 23:40:16,025 INFO  [stdout] (default task-3)         requiremen0_.id=?
+2018-04-24 23:40:16,027 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:16,028 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:16,028 INFO  [stdout] (default task-3)         exams0_.requirement_id as requirem1_11_0_,
+2018-04-24 23:40:16,028 INFO  [stdout] (default task-3)         exams0_.exam_category_id as exam_cat2_11_0_,
+2018-04-24 23:40:16,028 INFO  [stdout] (default task-3)         examcatego1_.id as id1_4_1_,
+2018-04-24 23:40:16,028 INFO  [stdout] (default task-3)         examcatego1_.created_at as created_2_4_1_,
+2018-04-24 23:40:16,028 INFO  [stdout] (default task-3)         examcatego1_.updated_at as updated_3_4_1_,
+2018-04-24 23:40:16,029 INFO  [stdout] (default task-3)         examcatego1_.description as descript4_4_1_,
+2018-04-24 23:40:16,029 INFO  [stdout] (default task-3)         examcatego1_.role_id as role_id5_4_1_,
+2018-04-24 23:40:16,029 INFO  [stdout] (default task-3)         userrole2_.id as id1_14_2_,
+2018-04-24 23:40:16,029 INFO  [stdout] (default task-3)         userrole2_.created_at as created_2_14_2_,
+2018-04-24 23:40:16,030 INFO  [stdout] (default task-3)         userrole2_.updated_at as updated_3_14_2_,
+2018-04-24 23:40:16,030 INFO  [stdout] (default task-3)         userrole2_.description as descript4_14_2_ 
+2018-04-24 23:40:16,030 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:16,030 INFO  [stdout] (default task-3)         requirements_exam_category exams0_ 
+2018-04-24 23:40:16,030 INFO  [stdout] (default task-3)     inner join
+2018-04-24 23:40:16,031 INFO  [stdout] (default task-3)         exam_category examcatego1_ 
+2018-04-24 23:40:16,031 INFO  [stdout] (default task-3)             on exams0_.exam_category_id=examcatego1_.id 
+2018-04-24 23:40:16,031 INFO  [stdout] (default task-3)     inner join
+2018-04-24 23:40:16,031 INFO  [stdout] (default task-3)         users_roles userrole2_ 
+2018-04-24 23:40:16,031 INFO  [stdout] (default task-3)             on examcatego1_.role_id=userrole2_.id 
+2018-04-24 23:40:16,031 INFO  [stdout] (default task-3)     where
+2018-04-24 23:40:16,032 INFO  [stdout] (default task-3)         exams0_.requirement_id=?
+2018-04-24 23:40:16,032 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:16,032 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:16,032 INFO  [stdout] (default task-4)         addresslis0_.user_id as user_id1_1_0_,
+2018-04-24 23:40:16,032 INFO  [stdout] (default task-4)         addresslis0_.address_id as address_2_1_0_,
+2018-04-24 23:40:16,032 INFO  [stdout] (default task-4)         address1_.id as id1_0_1_,
+2018-04-24 23:40:16,033 INFO  [stdout] (default task-4)         address1_.created_at as created_2_0_1_,
+2018-04-24 23:40:16,033 INFO  [stdout] (default task-4)         address1_.updated_at as updated_3_0_1_,
+2018-04-24 23:40:16,033 INFO  [stdout] (default task-4)         address1_.addressNumber as addressN4_0_1_,
+2018-04-24 23:40:16,033 INFO  [stdout] (default task-4)         address1_.cep as cep5_0_1_,
+2018-04-24 23:40:16,033 INFO  [stdout] (default task-4)         address1_.city_id as city_id9_0_1_,
+2018-04-24 23:40:16,034 INFO  [stdout] (default task-4)         address1_.complement as compleme6_0_1_,
+2018-04-24 23:40:16,034 INFO  [stdout] (default task-4)         address1_.neighborhood as neighbor7_0_1_,
+2018-04-24 23:40:16,034 INFO  [stdout] (default task-4)         address1_.street as street8_0_1_,
+2018-04-24 23:40:16,034 INFO  [stdout] (default task-4)         city2_.id as id1_2_2_,
+2018-04-24 23:40:16,034 INFO  [stdout] (default task-4)         city2_.created_at as created_2_2_2_,
+2018-04-24 23:40:16,034 INFO  [stdout] (default task-4)         city2_.updated_at as updated_3_2_2_,
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)         city2_.description as descript4_2_2_,
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)         city2_.state_id as state_id5_2_2_,
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)         state3_.id as id1_12_3_,
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)         state3_.created_at as created_2_12_3_,
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)         state3_.updated_at as updated_3_12_3_,
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)         state3_.Abbrev as Abbrev4_12_3_,
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)         state3_.country_id as country_6_12_3_,
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)         state3_.description as descript5_12_3_ 
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)         address_user addresslis0_ 
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)         address address1_ 
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)             on addresslis0_.address_id=address1_.id 
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)     inner join
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)         cities city2_ 
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)             on address1_.city_id=city2_.id 
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)     left outer join
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)         states state3_ 
+2018-04-24 23:40:16,035 INFO  [stdout] (default task-4)             on city2_.state_id=state3_.id 
+2018-04-24 23:40:16,036 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:16,036 INFO  [stdout] (default task-4)         addresslis0_.user_id=?
+2018-04-24 23:40:16,037 INFO  [stdout] (default task-1) Hibernate: 
+2018-04-24 23:40:16,037 INFO  [stdout] (default task-1)     select
+2018-04-24 23:40:16,037 INFO  [stdout] (default task-1)         country0_.id as id1_3_0_,
+2018-04-24 23:40:16,037 INFO  [stdout] (default task-1)         country0_.created_at as created_2_3_0_,
+2018-04-24 23:40:16,038 INFO  [stdout] (default task-1)         country0_.updated_at as updated_3_3_0_,
+2018-04-24 23:40:16,038 INFO  [stdout] (default task-1)         country0_.description as descript4_3_0_ 
+2018-04-24 23:40:16,038 INFO  [stdout] (default task-1)     from
+2018-04-24 23:40:16,038 INFO  [stdout] (default task-1)         countries country0_ 
+2018-04-24 23:40:16,038 INFO  [stdout] (default task-1)     where
+2018-04-24 23:40:16,038 INFO  [stdout] (default task-1)         country0_.id=?
+2018-04-24 23:40:16,040 INFO  [stdout] (default task-4) Hibernate: 
+2018-04-24 23:40:16,043 INFO  [stdout] (default task-4)     select
+2018-04-24 23:40:16,048 INFO  [stdout] (default task-4)         country0_.id as id1_3_0_,
+2018-04-24 23:40:16,048 INFO  [stdout] (default task-4)         country0_.created_at as created_2_3_0_,
+2018-04-24 23:40:16,048 INFO  [stdout] (default task-4)         country0_.updated_at as updated_3_3_0_,
+2018-04-24 23:40:16,049 INFO  [stdout] (default task-4)         country0_.description as descript4_3_0_ 
+2018-04-24 23:40:16,049 INFO  [stdout] (default task-4)     from
+2018-04-24 23:40:16,049 INFO  [stdout] (default task-4)         countries country0_ 
+2018-04-24 23:40:16,049 INFO  [stdout] (default task-4)     where
+2018-04-24 23:40:16,049 INFO  [stdout] (default task-4)         country0_.id=?
+2018-04-24 23:40:16,050 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:16,051 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:16,051 INFO  [stdout] (default task-3)         exams0_.requirement_id as requirem1_11_0_,
+2018-04-24 23:40:16,051 INFO  [stdout] (default task-3)         exams0_.exam_category_id as exam_cat2_11_0_,
+2018-04-24 23:40:16,051 INFO  [stdout] (default task-3)         examcatego1_.id as id1_4_1_,
+2018-04-24 23:40:16,052 INFO  [stdout] (default task-3)         examcatego1_.created_at as created_2_4_1_,
+2018-04-24 23:40:16,052 INFO  [stdout] (default task-3)         examcatego1_.updated_at as updated_3_4_1_,
+2018-04-24 23:40:16,052 INFO  [stdout] (default task-3)         examcatego1_.description as descript4_4_1_,
+2018-04-24 23:40:16,052 INFO  [stdout] (default task-3)         examcatego1_.role_id as role_id5_4_1_,
+2018-04-24 23:40:16,052 INFO  [stdout] (default task-3)         userrole2_.id as id1_14_2_,
+2018-04-24 23:40:16,053 INFO  [stdout] (default task-3)         userrole2_.created_at as created_2_14_2_,
+2018-04-24 23:40:16,053 INFO  [stdout] (default task-3)         userrole2_.updated_at as updated_3_14_2_,
+2018-04-24 23:40:16,053 INFO  [stdout] (default task-3)         userrole2_.description as descript4_14_2_ 
+2018-04-24 23:40:16,053 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:16,053 INFO  [stdout] (default task-3)         requirements_exam_category exams0_ 
+2018-04-24 23:40:16,054 INFO  [stdout] (default task-3)     inner join
+2018-04-24 23:40:16,054 INFO  [stdout] (default task-3)         exam_category examcatego1_ 
+2018-04-24 23:40:16,054 INFO  [stdout] (default task-3)             on exams0_.exam_category_id=examcatego1_.id 
+2018-04-24 23:40:16,054 INFO  [stdout] (default task-3)     inner join
+2018-04-24 23:40:16,055 INFO  [stdout] (default task-3)         users_roles userrole2_ 
+2018-04-24 23:40:16,055 INFO  [stdout] (default task-3)             on examcatego1_.role_id=userrole2_.id 
+2018-04-24 23:40:16,055 INFO  [stdout] (default task-3)     where
+2018-04-24 23:40:16,056 INFO  [stdout] (default task-3)         exams0_.requirement_id=?
+2018-04-24 23:40:16,298 INFO  [stdout] (default task-3) Hibernate: 
+2018-04-24 23:40:16,298 INFO  [stdout] (default task-3)     select
+2018-04-24 23:40:16,298 INFO  [stdout] (default task-3)         license0_.id as id1_8_,
+2018-04-24 23:40:16,298 INFO  [stdout] (default task-3)         license0_.created_at as created_2_8_,
+2018-04-24 23:40:16,298 INFO  [stdout] (default task-3)         license0_.updated_at as updated_3_8_,
+2018-04-24 23:40:16,299 INFO  [stdout] (default task-3)         license0_.address_id as address_7_8_,
+2018-04-24 23:40:16,299 INFO  [stdout] (default task-3)         license0_.category_id as category8_8_,
+2018-04-24 23:40:16,299 INFO  [stdout] (default task-3)         license0_.serial_number as serial_n4_8_,
+2018-04-24 23:40:16,299 INFO  [stdout] (default task-3)         license0_.shelf_life as shelf_li5_8_,
+2018-04-24 23:40:16,299 INFO  [stdout] (default task-3)         license0_.status as status6_8_,
+2018-04-24 23:40:16,299 INFO  [stdout] (default task-3)         license0_.user_id as user_id9_8_ 
+2018-04-24 23:40:16,299 INFO  [stdout] (default task-3)     from
+2018-04-24 23:40:16,300 INFO  [stdout] (default task-3)         licenses license0_ cross 
+2018-04-24 23:40:16,300 INFO  [stdout] (default task-3)     join
+2018-04-24 23:40:16,300 INFO  [stdout] (default task-3)         users user1_ 
+2018-04-24 23:40:16,300 INFO  [stdout] (default task-3)     where
+2018-04-24 23:40:16,300 INFO  [stdout] (default task-3)         license0_.user_id=user1_.id 
+2018-04-24 23:40:16,301 INFO  [stdout] (default task-3)         and user1_.CPF=?

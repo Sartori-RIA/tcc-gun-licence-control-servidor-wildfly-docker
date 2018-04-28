@@ -152,7 +152,7 @@
                     </security>
                 </datasource>
                 <datasource jta="true" jndi-name="java:/sinarm_ds" pool-name="sinarm_ds" enabled="true" use-ccm="true">
-                    <connection-url>jdbc:mysql://localhost:3306/sinarm_db?useSSL=false</connection-url>
+                    <connection-url>jdbc:mysql://db:3306/sinarm_db?useSSL=false</connection-url>
                     <driver>mysql-6.0.6</driver>
                     <pool>
                         <min-pool-size>5</min-pool-size>
@@ -161,7 +161,7 @@
                     </pool>
                     <security>
                         <user-name>root</user-name>
-                        <password>3660</password>
+                        <password>admin</password>
                     </security>
                     <validation>
                         <valid-connection-checker class-name="org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLValidConnectionChecker"/>
@@ -575,4 +575,9 @@
             <remote-destination host="localhost" port="25"/>
         </outbound-socket-binding>
     </socket-binding-group>
+    <deployments>
+        <deployment name="sinarm.war" runtime-name="sinarm.war">
+            <content sha1="4bbcf9b0ce246eaa91d06449bd53d94fb709a75f"/>
+        </deployment>
+    </deployments>
 </server>

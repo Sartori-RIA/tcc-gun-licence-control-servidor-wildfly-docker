@@ -151,8 +151,8 @@
                         <password>sa</password>
                     </security>
                 </datasource>
-                 <datasource jta="true" jndi-name="java:/sinarm_ds" pool-name="sinarm_ds" enabled="true" use-ccm="true">
-                    <connection-url>jdbc:mysql://localhost:3306/sinarm_db?useSSL=false</connection-url>
+                <datasource jta="true" jndi-name="java:/sinarm_ds" pool-name="sinarm_ds" enabled="true" use-ccm="true">
+                    <connection-url>jdbc:mysql://db:3306/sinarm_db?useSSL=false</connection-url>
                     <driver>mysql-6.0.6</driver>
                     <pool>
                         <min-pool-size>5</min-pool-size>
@@ -161,7 +161,7 @@
                     </pool>
                     <security>
                         <user-name>root</user-name>
-                        <password>3660</password>
+                        <password>admin</password>
                     </security>
                     <validation>
                         <valid-connection-checker class-name="org.jboss.jca.adapters.jdbc.extensions.mysql.MySQLValidConnectionChecker"/>
@@ -173,7 +173,7 @@
                     <driver name="h2" module="com.h2database.h2">
                         <xa-datasource-class>org.h2.jdbcx.JdbcDataSource</xa-datasource-class>
                     </driver>
-                       <driver name="mysql-6.0.6" module="com.mysql">
+                    <driver name="mysql-6.0.6" module="com.mysql">
                         <xa-datasource-class>com.mysql.jdbc.jdbc2.optional.MysqlXADataSource</xa-datasource-class>
                     </driver>
                 </drivers>
@@ -303,14 +303,14 @@
                 </constant-role-mapper>
             </mappers>
             <http>
-                <http-authentication-factory name="management-http-authentication" http-server-mechanism-factory="global" security-domain="ManagementDomain">
+                <http-authentication-factory name="management-http-authentication" security-domain="ManagementDomain" http-server-mechanism-factory="global">
                     <mechanism-configuration>
                         <mechanism mechanism-name="DIGEST">
                             <mechanism-realm realm-name="ManagementRealm"/>
                         </mechanism>
                     </mechanism-configuration>
                 </http-authentication-factory>
-                <http-authentication-factory name="application-http-authentication" http-server-mechanism-factory="global" security-domain="ApplicationDomain">
+                <http-authentication-factory name="application-http-authentication" security-domain="ApplicationDomain" http-server-mechanism-factory="global">
                     <mechanism-configuration>
                         <mechanism mechanism-name="BASIC">
                             <mechanism-realm realm-name="Application Realm"/>
