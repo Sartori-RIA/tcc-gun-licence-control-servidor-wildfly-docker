@@ -12,5 +12,5 @@
 
 ## PARAR
 
-+ ** `docker-compose kill` derruba todos os container online (os do docker-compose.yml atual)**
++ **`docker-compose kill` derruba todos os container online (os do docker-compose.yml atual)**
  
